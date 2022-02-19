@@ -1,14 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "uSQ0PSupCg74i9/z7cwZZX0gpXtcRqoKqP56GSWODvANCg3j97GtSl4GKlhDCJaR74gdcfaxtoxwrvlJJzXvDQ==",
+  "dgSpecHash": "uqSH9Flo2pCY8tjvy43VPNAPif+rT0r6Pv0uMJmiS2J8IUwRilTZdpg2GYgkX/r5TPPM3NRwQKTY/X4yzpm20Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\claud\\source\\repos\\TrainingConstructor\\TrainingConstructor\\TrainingConstructor\\TrainingConstructor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
-    "C:\\Users\\claud\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512"
+    "C:\\Users\\claud\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\xamarin.forms.debugrainbows\\1.1.4\\xamarin.forms.debugrainbows.1.1.4.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2337\\xamarin.forms.visual.material.5.0.0.2337.nupkg.sha512"
   ],
   "logs": []
 }

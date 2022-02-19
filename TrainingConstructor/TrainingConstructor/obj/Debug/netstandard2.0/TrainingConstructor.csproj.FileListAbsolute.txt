@@ -1,0 +1,17 @@
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\bin\Debug\netstandard2.0\TrainingConstructor.deps.json
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\bin\Debug\netstandard2.0\TrainingConstructor.dll
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\bin\Debug\netstandard2.0\ref\TrainingConstructor.dll
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\bin\Debug\netstandard2.0\TrainingConstructor.pdb
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\TrainingConstructor.csproj.AssemblyReference.cache
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\TrainingConstructor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\Pages\Auth.xaml.g.cs
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\Pages\Loadining.xaml.g.cs
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\TrainingConstructor.AssemblyInfoInputs.cache
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\TrainingConstructor.AssemblyInfo.cs
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\TrainingConstructor.csproj.CoreCompileInputs.cache
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\TrainingConstructor.dll
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\ref\TrainingConstructor.dll
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\TrainingConstructor.pdb

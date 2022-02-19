@@ -2,6 +2,99 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v12.0": {
+      "sqlite-net-pcl/1.8.116": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.bundle_green": "2.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLite-net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLite-net.dll": {}
+        }
+      },
+      "SQLitePCLRaw.bundle_green/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4",
+          "SQLitePCLRaw.lib.e_sqlite3.android": "2.0.4",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
+        }
+      },
+      "SQLitePCLRaw.core/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
+        }
+      },
+      "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll": {}
+        }
+      },
+      "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
+        "type": "package",
+        "dependencies": {
+          "SQLitePCLRaw.core": "2.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "System.Buffers/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Buffers.dll": {}
+        }
+      },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/MonoAndroid10/_._": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.Memory/4.5.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.4.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -9,6 +102,15 @@
         },
         "runtime": {
           "lib/MonoAndroid10/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
       "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -1487,6 +1589,54 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.DebugRainbows/1.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Xamarin.Forms.DebugRainbows.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.Forms.DebugRainbows.dll": {}
+        }
+      },
+      "Xamarin.Forms.PancakeView/2.3.0.759": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "Xamarin.AndroidX.AppCompat": "1.2.0.4",
+          "Xamarin.Forms": "4.8.0.1451"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid10.0/Xamarin.Forms.PancakeView.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid10.0/Xamarin.Forms.PancakeView.dll": {}
+        }
+      },
+      "Xamarin.Forms.Visual.Material/5.0.0.2337": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Lifecycle.LiveData": "[2.3.1.1, 2.4.0)",
+          "Xamarin.Google.Android.Material": "[1.4.0.2, 1.5.0)"
+        },
+        "compile": {
+          "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll": {}
+        },
+        "build": {
+          "buildTransitive/MonoAndroid10/Xamarin.Forms.Visual.Material.targets": {}
+        }
+      },
       "Xamarin.Google.Android.Material/1.4.0.2": {
         "type": "package",
         "dependencies": {
@@ -1544,8 +1694,12 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2196"
+          "Xamarin.Essentials": "1.7.1",
+          "Xamarin.Forms": "5.0.0.2337",
+          "Xamarin.Forms.DebugRainbows": "1.1.4",
+          "Xamarin.Forms.PancakeView": "2.3.0.759",
+          "Xamarin.Forms.Visual.Material": "5.0.0.2337",
+          "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
           "bin/placeholder/TrainingConstructor.dll": {}
@@ -1557,6 +1711,181 @@
     }
   },
   "libraries": {
+    "sqlite-net-pcl/1.8.116": {
+      "sha512": "W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
+      "type": "package",
+      "path": "sqlite-net-pcl/1.8.116",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Logo-low.png",
+        "lib/netstandard2.0/SQLite-net.dll",
+        "lib/netstandard2.0/SQLite-net.xml",
+        "sqlite-net-pcl.1.8.116.nupkg.sha512",
+        "sqlite-net-pcl.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.bundle_green/2.0.4": {
+      "sha512": "ubFgOHDmtTcq2LU7Ss10yHnFVMm2rFVr65Ggi+Mh514KjGx4pal98P2zSvZtWf3wbtJw6G1InBgeozBtnpEfKQ==",
+      "type": "package",
+      "path": "sqlitepclraw.bundle_green/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll",
+        "lib/Xamarin.iOS10/SQLitePCLRaw.nativelibrary.dll",
+        "lib/net461/SQLitePCLRaw.batteries_v2.dll",
+        "lib/net461/SQLitePCLRaw.nativelibrary.dll",
+        "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll",
+        "lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll",
+        "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
+        "sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+        "sqlitepclraw.bundle_green.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.core/2.0.4": {
+      "sha512": "4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
+      "type": "package",
+      "path": "sqlitepclraw.core/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SQLitePCLRaw.core.dll",
+        "sqlitepclraw.core.2.0.4.nupkg.sha512",
+        "sqlitepclraw.core.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.lib.e_sqlite3.android/2.0.4": {
+      "sha512": "M7evP2q/gosKlDvxtQ+T4h+MWNiBzfIis1eZr6jrQnh3H9md+74e2cni/b0vm2OymyV/zZp7cKfUgde57zvqwA==",
+      "type": "package",
+      "path": "sqlitepclraw.lib.e_sqlite3.android/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid80/SQLitePCLRaw.lib.e_sqlite3.android.dll",
+        "sqlitepclraw.lib.e_sqlite3.android.2.0.4.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.android.nuspec"
+      ]
+    },
+    "SQLitePCLRaw.provider.e_sqlite3/2.0.4": {
+      "sha512": "YiqCw+PfiPIuX2aZnEqt1ya5ldGm4ParIqzaRXtztDu8mdzZxOXVYOrKZazXg6nbwYbCP1H5mOYGmBFQ2W0M5g==",
+      "type": "package",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "lib/uap10.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.nuspec"
+      ]
+    },
+    "System.Buffers/4.4.0": {
+      "sha512": "AwarXzzoDwX6BgrhjoJsk6tUezZEozOT5Y9QKF94Gl4JK91I4PIIBkBco9068Y9/Dra8Dkbie99kXB8+1BaYKw==",
+      "type": "package",
+      "path": "system.buffers/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "system.buffers.4.4.0.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ComponentModel/4.3.0": {
+      "sha512": "VyGn1jGRZVfxnh8EdvDCi71v3bMXrsu8aYJOwoV7SNDLVhiEqwP86pPMyRGsDsxhXAm2b3o9OIqeETfN5qfezw==",
+      "type": "package",
+      "path": "system.componentmodel/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.ComponentModel.dll",
+        "lib/netstandard1.3/System.ComponentModel.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.ComponentModel.dll",
+        "ref/netcore50/System.ComponentModel.xml",
+        "ref/netcore50/de/System.ComponentModel.xml",
+        "ref/netcore50/es/System.ComponentModel.xml",
+        "ref/netcore50/fr/System.ComponentModel.xml",
+        "ref/netcore50/it/System.ComponentModel.xml",
+        "ref/netcore50/ja/System.ComponentModel.xml",
+        "ref/netcore50/ko/System.ComponentModel.xml",
+        "ref/netcore50/ru/System.ComponentModel.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.xml",
+        "ref/netstandard1.0/System.ComponentModel.dll",
+        "ref/netstandard1.0/System.ComponentModel.xml",
+        "ref/netstandard1.0/de/System.ComponentModel.xml",
+        "ref/netstandard1.0/es/System.ComponentModel.xml",
+        "ref/netstandard1.0/fr/System.ComponentModel.xml",
+        "ref/netstandard1.0/it/System.ComponentModel.xml",
+        "ref/netstandard1.0/ja/System.ComponentModel.xml",
+        "ref/netstandard1.0/ko/System.ComponentModel.xml",
+        "ref/netstandard1.0/ru/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hans/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hant/System.ComponentModel.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.4.3.0.nupkg.sha512",
+        "system.componentmodel.nuspec"
+      ]
+    },
+    "System.Memory/4.5.3": {
+      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "type": "package",
+      "path": "system.memory/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -1600,6 +1929,31 @@
         "ref/xamarinwatchos10/_._",
         "system.numerics.vectors.4.5.0.nupkg.sha512",
         "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -3117,6 +3471,79 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.DebugRainbows/1.1.4": {
+      "sha512": "tVhJgSDI3MxLAi8pMDOWeeFHY+qnMcbVklUQtZHE5pJZkLYKDCoSMeHSLDfr4ZtpG5i9+xbeSpU+ZOLapjxX9g==",
+      "type": "package",
+      "path": "xamarin.forms.debugrainbows/1.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid81/Xamarin.Forms.DebugRainbows.dll",
+        "lib/monoandroid90/Xamarin.Forms.DebugRainbows.dll",
+        "lib/netstandard2.0/Xamarin.Forms.DebugRainbows.dll",
+        "lib/xamarinios10/Xamarin.Forms.DebugRainbows.dll",
+        "xamarin.forms.debugrainbows.1.1.4.nupkg.sha512",
+        "xamarin.forms.debugrainbows.nuspec"
+      ]
+    },
+    "Xamarin.Forms.PancakeView/2.3.0.759": {
+      "sha512": "TGVsLJuGd/PKlyhmcBxZnHhHqyhYppzyrdb2q/sy+S6dQYkeGM8A+HmIIHVhbi7r8Sjasa/HRBkOmTSYQOZzhQ==",
+      "type": "package",
+      "path": "xamarin.forms.pancakeview/2.3.0.759",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Xamarin.Forms.PancakeView.dll",
+        "lib/monoandroid10.0/Xamarin.Forms.PancakeView.xml",
+        "lib/monoandroid90/Xamarin.Forms.PancakeView.dll",
+        "lib/monoandroid90/Xamarin.Forms.PancakeView.xml",
+        "lib/net471/Xamarin.Forms.PancakeView.dll",
+        "lib/net471/Xamarin.Forms.PancakeView.xml",
+        "lib/net472/Xamarin.Forms.PancakeView.dll",
+        "lib/net472/Xamarin.Forms.PancakeView.xml",
+        "lib/netcoreapp3.1/Xamarin.Forms.PancakeView.dll",
+        "lib/netcoreapp3.1/Xamarin.Forms.PancakeView.xml",
+        "lib/netstandard1.0/Xamarin.Forms.PancakeView.dll",
+        "lib/netstandard1.0/Xamarin.Forms.PancakeView.xml",
+        "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll",
+        "lib/netstandard2.0/Xamarin.Forms.PancakeView.xml",
+        "lib/netstandard2.1/Xamarin.Forms.PancakeView.dll",
+        "lib/netstandard2.1/Xamarin.Forms.PancakeView.xml",
+        "lib/tizen40/Xamarin.Forms.PancakeView.dll",
+        "lib/tizen40/Xamarin.Forms.PancakeView.xml",
+        "lib/uap10.0.17763/Xamarin.Forms.PancakeView.dll",
+        "lib/uap10.0.17763/Xamarin.Forms.PancakeView.pri",
+        "lib/uap10.0.17763/Xamarin.Forms.PancakeView.xml",
+        "lib/xamarinios10/Xamarin.Forms.PancakeView.dll",
+        "lib/xamarinios10/Xamarin.Forms.PancakeView.xml",
+        "lib/xamarinmac20/Xamarin.Forms.PancakeView.dll",
+        "lib/xamarinmac20/Xamarin.Forms.PancakeView.xml",
+        "xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
+        "xamarin.forms.pancakeview.nuspec"
+      ]
+    },
+    "Xamarin.Forms.Visual.Material/5.0.0.2337": {
+      "sha512": "eAvlOQmP1FDGsVjyWLd7A2K9aS9Qm4eLV6tA+Pc1EyMbvluEQ9zff4tfcl8IOVZKvn41pNHPLlOeSjXMwM3PHQ==",
+      "type": "package",
+      "path": "xamarin.forms.visual.material/5.0.0.2337",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "build/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "buildTransitive/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.pdb",
+        "lib/MonoAndroid10/_._",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.pdb",
+        "lib/netstandard1.0/_._",
+        "lib/tizen40/Xamarin.Forms.Material.dll",
+        "lib/tizen40/Xamarin.Forms.Material.pdb",
+        "xamarin.forms.visual.material.5.0.0.2337.nupkg.sha512",
+        "xamarin.forms.visual.material.nuspec"
+      ]
+    },
     "Xamarin.Google.Android.Material/1.4.0.2": {
       "sha512": "2dH8pSYjlVmZk8E64E6/hZzsoTcubsH1DHLMYpnsXnteqVuFU42uG5pIuJZIOcLxgKX/QjLdMzth6/w+Oje8sQ==",
       "type": "package",
@@ -3168,7 +3595,9 @@
     "MonoAndroid,Version=v12.0": [
       "TrainingConstructor >= 1.0.0",
       "Xamarin.Essentials >= 1.7.1",
-      "Xamarin.Forms >= 5.0.0.2337"
+      "Xamarin.Forms >= 5.0.0.2337",
+      "Xamarin.Forms.Visual.Material >= 5.0.0.2337",
+      "sqlite-net-pcl >= 1.8.116"
     ]
   },
   "packageFolders": {
@@ -3220,6 +3649,14 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2337, )"
+          },
+          "Xamarin.Forms.Visual.Material": {
+            "target": "Package",
+            "version": "[5.0.0.2337, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.8.116, )"
           }
         }
       }

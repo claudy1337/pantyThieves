@@ -1,16 +1,35 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using TrainingConstructor.sql;
+using SQLite;
+using System.IO;
+using TrainingConstructor.Pages;
 
 namespace TrainingConstructor
 {
     public partial class App : Application
     {
+        public const string DATABASE_NAME = "Project.db";
+        internal static WorkoutBD db;
+        internal static WorkoutBD Db
+        {
+            get
+            {
+                if (db == null)
+                {
+                    db = new WorkoutBD(
+                        Path.Combine(
+                            Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), DATABASE_NAME));
+                }
+                return db;
+            }
+        }
+
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            MainPage = MainPage = new NavigationPage(new Loadining());
         }
 
         protected override void OnStart()
