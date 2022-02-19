@@ -1,2 +1,4 @@
-# pantyThieves
-constructor for composing training tasks for the day
+Конструктор тренировок
+===========
+**Описание**
+
