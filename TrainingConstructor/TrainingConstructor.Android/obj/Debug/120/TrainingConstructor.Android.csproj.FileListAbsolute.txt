@@ -48,7 +48,6 @@ C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingCons
 C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\mipmap-xxxhdpi\icon.png
 C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\loadining.png
 C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\uploadflags.txt
 C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\resolvedassemblies.hash
 C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\assets\FormsViewGroup.dll
@@ -666,3 +665,4 @@ C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingCons
 C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\src\crc64f8908e42fa42e603\PancakeDrawable.java
 C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\src\crc64f8908e42fa42e603\PancakeViewRenderer.java
 C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\src\crc64f8908e42fa42e603\RoundedCornerOutlineProvider.java
+C:\Users\claud\source\repos\TrainingConstructor\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\loading.png

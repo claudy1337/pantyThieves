@@ -9914,7 +9914,7 @@ public final class R {
     public static final int ic_mtrl_chip_checked_black=0x7f070068;
     public static final int ic_mtrl_chip_checked_circle=0x7f070069;
     public static final int ic_mtrl_chip_close_circle=0x7f07006a;
-    public static final int loadining=0x7f07006b;
+    public static final int loading=0x7f07006b;
     public static final int material_cursor_drawable=0x7f07006c;
     public static final int material_ic_calendar_black_24dp=0x7f07006d;
     public static final int material_ic_clear_black_24dp=0x7f07006e;

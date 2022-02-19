@@ -3,20 +3,36 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TrainingConstructor.Pages.Loadining"
              Visual="Material"
-             BackgroundImageSource="loadining.png"
+             BackgroundImageSource="loading.png"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Running" TextColor="White" FontSize="40"
-                   VerticalOptions="End" HorizontalOptions="Center"/>
-            <Button BackgroundColor="#FF7A00" 
+        
+        <StackLayout FlowDirection="MatchParent" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,50">
+            
+            <Label Text="Running" 
+                   TextColor="White" 
+                   FontFamily="Montserrat-BlackItalic.ttf" 
+                   FontSize="40" HorizontalTextAlignment="Center"/>
+
+            <Label Text="10 miles"
+                   TextColor="White"
+                   FontFamily="Montserrat-Light.ttf"
+                   FontSize="20"
+                   HorizontalTextAlignment="Center"/>
+
+            <Button BackgroundColor="#FF7A00"
+                    Margin="0,50,0,0"
                     VerticalOptions="End"
                     HorizontalOptions="Center"
-                    Text="START WORKOUT" 
+                    Text="start workout" 
                     TextColor="White" 
-                    FontSize="18"
-                    CornerRadius="38"/>
-
+                    FontSize="15"
+                    HeightRequest="62"
+                    WidthRequest="250"
+                    CornerRadius="28"
+                    FontFamily="Montserrat-Medium.ttf"/>
+            
         </StackLayout>
+     
     </ContentPage.Content>
 </ContentPage>

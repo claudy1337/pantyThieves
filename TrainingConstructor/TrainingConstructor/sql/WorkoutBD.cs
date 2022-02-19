@@ -15,6 +15,7 @@ namespace TrainingConstructor.sql
             db = new SQLiteConnection(dbPath);
             db.CreateTable<Workout>();
         }
+        
 
         public IEnumerable<Workout> GetItems()
         {

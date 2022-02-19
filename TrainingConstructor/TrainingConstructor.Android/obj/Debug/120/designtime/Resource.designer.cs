@@ -24511,7 +24511,7 @@ namespace TrainingConstructor.Droid
 			public const int ic_mtrl_chip_close_circle = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int loadining = 2131165291;
+			public const int loading = 2131165291;
 			
 			// aapt resource value: 0x7F070076
 			public const int MaterialActivityIndicatorBackground = 2131165302;
