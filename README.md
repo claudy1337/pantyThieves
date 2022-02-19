@@ -8,13 +8,17 @@
 DATA BASE
 ===========
 **sqllite**
-| Workout | User |
-|----------------|---------|
-| IDWorkout | IDUser |
-| Name | Login |
-| Title | Password |
-| Path | IDWorkout |
-| Date | Path |
+| Workout | User | ListWorkout|
+|----------------|---------|---------|
+| IDWorkout | IDUser | iDWorkout |
+| Name | Login | IDUser |
+| Title | Password | iDWorkoutList |
+| Path | Name | Count |
+| Time | Path | Time |
+| Count | BirthDay | |
+|  | Gender | |
+|  | Number |  |
+
 
 Optimize project
 ===========
@@ -23,12 +27,31 @@ Optimize project
 - фоновая загрузка изображений с возможностью повторения запросов
 - уменьшение прогрузки анимации 
 
+UI
+===========
+**asset and figma(Comunity)**
+- Использованны готовые ассеты для визуального представления проекта 
+- Ресурсы предоставляют возможность включать в приложение произвольные файлы, текст, xml, шрифты
+- Добавленные в проект, будут отображаться точно так же, как файловая система, которую приложение может считывать с помощью  `AssetManager`
+
+- figma [тык](https://www.figma.com/file/tXmUIUypsoXkouMNFPbQq8/Untitled?node-id=0%3A1)
+
+![f1](https://ie.wampi.ru/2022/02/19/IZOBRAZENIE_2022-02-19_224511.png)
+
+Fonts
+===========
+**Montserrat** `embedded resource` `TrainingConstructor\founts` [тык](https://fonts-online.ru/fonts/montserrat) 
+- Montserrat-Black.ttf
+- Montserrat-BlackItalic.ttf
+- Montserrat-Light.ttf
+- Montserrat-Medium.ttf
+
 
 Packages NuGet
 ===========
 - Visual Material  **_xamarin.forms.visual.material_** 
 - SQL-Lite **_sqlite-net-pcl_** 
-- Google Fonts  **_MaterialIcons-Regular.ttf_** 
-[тык](https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf)
 - FFImageLoading
 - FFImageLoading.Forms
+- Xamarin.Forms.PancakeView
+- Xamarin.Forms.DebugRainbows
