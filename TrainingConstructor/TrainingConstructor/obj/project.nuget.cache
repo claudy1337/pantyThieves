@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "uSQ0PSupCg74i9/z7cwZZX0gpXtcRqoKqP56GSWODvANCg3j97GtSl4GKlhDCJaR74gdcfaxtoxwrvlJJzXvDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\claud\\source\\repos\\TrainingConstructor\\TrainingConstructor\\TrainingConstructor\\TrainingConstructor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512"
+  ],
+  "logs": []
+}
