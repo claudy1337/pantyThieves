@@ -53,3 +53,12 @@ Packages NuGet
 - FFImageLoading.Forms
 - Xamarin.Forms.PancakeView
 - Xamarin.Forms.DebugRainbows
+- ThriveGmbH.BottomNavigationBar.XF **BottomBar**
+
+BottomBar
+===========
+**навигационная панель находящаяся в подвале экрана**
+ - xmlns:bnb="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms"
+ - x:Class="TrainingConstructor.Pages.YourProjectName"
+ - `bnb:BottomBarPage`
+ - public `partial` class : Page
