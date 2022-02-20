@@ -10,6 +10,7 @@
        
             <local:Auth IconImageSource="plus.png"/>
             <local:Profile IconImageSource="plus.png"/>
+            <local:InfoExercise IconImageSource="plus.png"/>
      
     </TabbedPage.Children>
 </bnb:BottomBarPage>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X1pihDufkhULonxjBxaVr5W3ENsInMWxhyZtQ3jtq0ZvmwZSEoYSD1gZUDdWYdLQvzUlHQAAsGcX0UP3JPD8tQ==",
+  "dgSpecHash": "ki60oBpsTl7a46SqBBCDxowfO4ZTcemmGWqkq+4SdikpVozY+NUXyy8evds3CsLMfeJQQokbWo82joQFmQziFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\claud\\source\\repos\\TrainingConstructor\\TrainingConstructor\\TrainingConstructor.Android\\TrainingConstructor.Android.csproj",
+  "projectFilePath": "C:\\Users\\claud\\source\\repos\\pantyThieves\\TrainingConstructor\\TrainingConstructor.Android\\TrainingConstructor.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\claud\\.nuget\\packages\\bottomnavigationbar\\1.1.2\\bottomnavigationbar.1.1.2.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\newtonsoft.json\\8.0.3\\newtonsoft.json.8.0.3.nupkg.sha512",

@@ -7,104 +7,108 @@
              BackgroundColor="#F2F2F2"
              Visual="Material"
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+    
     <ContentPage.Content>
-        <FlexLayout Direction="Column" Margin="30">
+        <FlexLayout Direction="Column"  Margin="20">
             <StackLayout>
 
                 <Frame CornerRadius="180" 
                        VerticalOptions="Center" 
-                       HeightRequest="40" 
+                       HeightRequest="31"
+                       HorizontalOptions="Center"
                        x:Name="UserImage">
-                    <Image Source="plus.png"/>
+                    <Button ImageSource="plus.png"
+                            WidthRequest="34" 
+
+                            x:Name="UserImages"
+                            Clicked="UserImages_Clicked"/>
                 </Frame>
-            </StackLayout>
+                <StackLayout>
 
-            <StackLayout>
-                <yummy:PancakeView CornerRadius="20">
-                    <yummy:PancakeView.Border>
-                        <yummy:Border Thickness="20">
-                        </yummy:Border>
-                    </yummy:PancakeView.Border>
-                    <StackLayout>
-                        <Entry BackgroundColor="White"
+
+                    <yummy:PancakeView CornerRadius="20">
+                        <yummy:PancakeView.Border>
+                            <yummy:Border Thickness="20">
+                            </yummy:Border>
+                        </yummy:PancakeView.Border>
+                        <StackLayout>
+                            <Entry
+                               Placeholder="Name" 
+                               Margin="0,19,0,0" 
+                               x:Name="Namee"
+                               Text="{Binding Name}"/>
+                        </StackLayout>
+                    </yummy:PancakeView>
+
+                    <yummy:PancakeView CornerRadius="20">
+                        <yummy:PancakeView.Border>
+                            <yummy:Border Thickness="20">
+                            </yummy:Border>
+                        </yummy:PancakeView.Border>
+                        <StackLayout>
+                            <Entry
+                               Placeholder="Name" 
+                               Margin="0,19,0,0" 
+                               x:Name="NameOne"
+                               Text="{Binding Name}"/>
+                        </StackLayout>
+                    </yummy:PancakeView>
+
+                    <yummy:PancakeView CornerRadius="20">
+                        <yummy:PancakeView.Border>
+                            <yummy:Border Thickness="20">
+                            </yummy:Border>
+                        </yummy:PancakeView.Border>
+                        <StackLayout>
+                            <Entry
                                FontFamily="Montserrat-Medium.ttf"
                                Placeholder="Name" 
-                               Margin="0, 35,0,0" 
-                               HeightRequest="60"
-                               x:Name="Name"
-                               Text="{Binding Name}"
-                               Visual="Material"/>
-                    </StackLayout>
-                </yummy:PancakeView>
-            </StackLayout>
+                               Margin="0, 19,0,0" 
+                               Text="{Binding Name}"/>
+                        </StackLayout>
+                    </yummy:PancakeView>
 
-            <StackLayout>
-                <yummy:PancakeView CornerRadius="20">
-                    <yummy:PancakeView.Border>
-                        <yummy:Border Thickness="20">
-                        </yummy:Border>
-                    </yummy:PancakeView.Border>
-                    <StackLayout>
-                        <Entry BackgroundColor="White"
-                               FontFamily="Montserrat-Medium.ttf"
+                    <yummy:PancakeView CornerRadius="20">
+                        <yummy:PancakeView.Border>
+                            <yummy:Border Thickness="20">
+                            </yummy:Border>
+                        </yummy:PancakeView.Border>
+                        <StackLayout>
+                            <Entry 
                                Placeholder="Name" 
-                               Margin="0, 35,0,0" 
-                               HeightRequest="60"
+                               Margin="0, 19,0,0" 
                                Text="{Binding Name}"
-                               Visual="Material"/>
-                    </StackLayout>
-                </yummy:PancakeView>
-            </StackLayout>
+                               />
+                        </StackLayout>
+                    </yummy:PancakeView>
+                </StackLayout>
 
-            <StackLayout>
-                <yummy:PancakeView CornerRadius="20">
-                    <yummy:PancakeView.Border>
-                        <yummy:Border Thickness="20">
-                        </yummy:Border>
-                    </yummy:PancakeView.Border>
-                    <StackLayout>
-                        <Entry BackgroundColor="White"
-                               FontFamily="Montserrat-Medium.ttf"
-                               Placeholder="Name" 
-                               Margin="0, 35,0,0" 
-                               HeightRequest="60"
-                               Text="{Binding Name}"
-                               Visual="Material"/>
-                    </StackLayout>
-                </yummy:PancakeView>
-            </StackLayout>
+                <StackLayout>
+                    <Label Text="Sex" TextColor="Black" FontFamily="Montserrat-Bold.ttf" FontSize="18"/>
+                </StackLayout>
+                <FlexLayout Direction="Row" JustifyContent="SpaceAround">
+                    <Frame CornerRadius="20" 
+                       VerticalOptions="Center" 
+                       HeightRequest="54"
+                       WidthRequest="100"
+                       HorizontalOptions="Center">
+                        <RadioButton />
+                    </Frame>
 
-            <StackLayout>
-                <yummy:PancakeView CornerRadius="20">
-                    <yummy:PancakeView.Border>
-                        <yummy:Border Thickness="20">
-                        </yummy:Border>
-                    </yummy:PancakeView.Border>
-                    <StackLayout>
-                        <Entry BackgroundColor="White"
-                               FontFamily="Montserrat-Medium.ttf"
-                               Placeholder="Name" 
-                               Margin="0, 35,0,0" 
-                               HeightRequest="60"
-                               Text="{Binding Name}"
-                               Visual="Material"/>
-                    </StackLayout>
-                </yummy:PancakeView>
+                    <Frame CornerRadius="20" 
+                       VerticalOptions="Center" 
+                       HeightRequest="54"
+                       WidthRequest="100"
+                       HorizontalOptions="Center">
+                        <RadioButton />
+                    </Frame>
+                </FlexLayout>
+                
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Button Text="Update Profil"/>
+                </StackLayout>
+                
             </StackLayout>
-
-            <StackLayout>
-                <Label Text="male"/>
-                <RadioButton Visual="Material" />
-            </StackLayout>
-
-            <StackLayout Margin="0,204,0,0">
-                <Button x:Name="BRegistration" 
-                        Text="Зарегистрироваться" 
-                        CornerRadius="200"
-                        BackgroundColor="#00b2ff"
-                        TextColor="White"/>
-            </StackLayout>
-         
         </FlexLayout>
     </ContentPage.Content>
 </ContentPage>
