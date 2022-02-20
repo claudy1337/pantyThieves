@@ -10,7 +10,10 @@
       "TrainingConstructor/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xamarin.Essentials": "1.7.1",
+          "Xamarin.FFImageLoading": "2.4.11.982",
+          "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "5.0.0.2337",
           "Xamarin.Forms.DebugRainbows": "1.1.4",
           "Xamarin.Forms.PancakeView": "2.3.0.759",
@@ -129,6 +132,14 @@
           }
         }
       },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll": {
+            "assemblyVersion": "1.0.6334.21543",
+            "fileVersion": "1.0.6334.21543"
+          }
+        }
+      },
       "Xamarin.Essentials/1.7.1": {
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -137,6 +148,30 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading/2.4.11.982": {
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Platform.dll": {
+            "assemblyVersion": "2.4.11.982",
+            "fileVersion": "2.4.11.982"
+          },
+          "lib/netstandard1.0/FFImageLoading.dll": {
+            "assemblyVersion": "2.4.11.982",
+            "fileVersion": "2.4.11.982"
+          }
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.11.982": {
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.11.982",
+          "Xamarin.Forms": "5.0.0.2337"
+        },
+        "runtime": {
+          "lib/netstandard1.0/FFImageLoading.Forms.dll": {
+            "assemblyVersion": "2.4.11.982",
+            "fileVersion": "2.4.11.982"
           }
         }
       },
@@ -290,12 +325,33 @@
       "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
     },
+    "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CAxjraz7v27mWxrChvLLggDRq5Icf3OA0IL3lpGY+rfUGH488kZzBB3WJmfbgh7q5yfBbva51Iuv4tFleepV2A==",
+      "path": "thrivegmbh.bottomnavigationbar.xf/1.0.2",
+      "hashPath": "thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512"
+    },
     "Xamarin.Essentials/1.7.1": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-u7pUgvHJKTYo5ATiwRZvYviq2O0AQXIqxdna+sMxqidfWpbD7FBgFOLNAZzWKSll/AQBPeDrqLAWZNLq+ztpmQ==",
       "path": "xamarin.essentials/1.7.1",
       "hashPath": "xamarin.essentials.1.7.1.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading/2.4.11.982": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M0sNIQgUPs+le6C2TS4RmZQAURnzaRVizRtnZIZ6/1//qGcEAtEXAGt/tBJz6I1zlP6XlMxq8io6b4sjFP5N9Q==",
+      "path": "xamarin.ffimageloading/2.4.11.982",
+      "hashPath": "xamarin.ffimageloading.2.4.11.982.nupkg.sha512"
+    },
+    "Xamarin.FFImageLoading.Forms/2.4.11.982": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7X4t3J1wJj0/0o8+vd91hzSYlrqEeMFC7Mj+0T8O+fcbRSHo/c+QbWscEQiT4AaKCwyO709xq+7aY2XXbK/H7g==",
+      "path": "xamarin.ffimageloading.forms/2.4.11.982",
+      "hashPath": "xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512"
     },
     "Xamarin.Forms/5.0.0.2337": {
       "type": "package",

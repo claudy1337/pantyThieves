@@ -2,6 +2,33 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v12.0": {
+      "BottomNavigationBar/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3",
+          "Xamarin.Android.Support.Animated.Vector.Drawable": "23.3.0",
+          "Xamarin.Android.Support.Design": "23.3.0",
+          "Xamarin.Android.Support.Vector.Drawable": "23.3.0",
+          "Xamarin.Android.Support.v4": "23.3.0",
+          "Xamarin.Android.Support.v7.AppCompat": "23.3.0",
+          "Xamarin.Android.Support.v7.RecyclerView": "23.3.0"
+        },
+        "compile": {
+          "lib/MonoAndroid403/BottomNavigationBar.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/BottomNavigationBar.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -111,6 +138,97 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "BottomNavigationBar": "1.1.2"
+        },
+        "compile": {
+          "lib/MonoAndroid10/BottomBar.Droid.dll": {},
+          "lib/MonoAndroid10/BottomBar.XamarinForms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/BottomBar.Droid.dll": {},
+          "lib/MonoAndroid10/BottomBar.XamarinForms.dll": {}
+        }
+      },
+      "Xamarin.Android.Support.Animated.Vector.Drawable/23.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Vector.Drawable": "[23.3.0]",
+          "Xamarin.Android.Support.v4": "[23.3.0]"
+        },
+        "compile": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.Animated.Vector.Drawable.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.Animated.Vector.Drawable.dll": {}
+        }
+      },
+      "Xamarin.Android.Support.Design/23.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.v4": "[23.3.0]",
+          "Xamarin.Android.Support.v7.AppCompat": "[23.3.0]",
+          "Xamarin.Android.Support.v7.RecyclerView": "[23.3.0]"
+        },
+        "compile": {
+          "lib/MonoAndroid43/Xamarin.Android.Support.Design.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid43/Xamarin.Android.Support.Design.dll": {}
+        }
+      },
+      "Xamarin.Android.Support.v4/23.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.v4.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.v4.dll": {}
+        }
+      },
+      "Xamarin.Android.Support.v7.AppCompat/23.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.Animated.Vector.Drawable": "[23.3.0]",
+          "Xamarin.Android.Support.Vector.Drawable": "[23.3.0]",
+          "Xamarin.Android.Support.v4": "[23.3.0]"
+        },
+        "compile": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.v7.AppCompat.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.v7.AppCompat.dll": {}
+        }
+      },
+      "Xamarin.Android.Support.v7.RecyclerView/23.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.v4": "[23.3.0]"
+        },
+        "compile": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.v7.RecyclerView.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.v7.RecyclerView.dll": {}
+        }
+      },
+      "Xamarin.Android.Support.Vector.Drawable/23.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Android.Support.v4": "[23.3.0]"
+        },
+        "compile": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.Vector.Drawable.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/Xamarin.Android.Support.Vector.Drawable.dll": {}
+        },
+        "build": {
+          "build/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
       },
       "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -1557,6 +1675,32 @@
           "lib/monoandroid10.0/Xamarin.Essentials.dll": {}
         }
       },
+      "Xamarin.FFImageLoading/2.4.11.982": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/FFImageLoading.Platform.dll": {},
+          "lib/MonoAndroid10/FFImageLoading.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FFImageLoading.Platform.dll": {},
+          "lib/MonoAndroid10/FFImageLoading.dll": {}
+        }
+      },
+      "Xamarin.FFImageLoading.Forms/2.4.11.982": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.FFImageLoading": "2.4.11.982",
+          "Xamarin.Forms": "3.3.0.912540"
+        },
+        "compile": {
+          "lib/MonoAndroid10/FFImageLoading.Forms.Platform.dll": {},
+          "lib/MonoAndroid10/FFImageLoading.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/FFImageLoading.Forms.Platform.dll": {},
+          "lib/MonoAndroid10/FFImageLoading.Forms.dll": {}
+        }
+      },
       "Xamarin.Forms/5.0.0.2337": {
         "type": "package",
         "dependencies": {
@@ -1694,7 +1838,10 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "ThriveGmbH.BottomNavigationBar.XF": "1.0.2",
           "Xamarin.Essentials": "1.7.1",
+          "Xamarin.FFImageLoading": "2.4.11.982",
+          "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.Forms": "5.0.0.2337",
           "Xamarin.Forms.DebugRainbows": "1.1.4",
           "Xamarin.Forms.PancakeView": "2.3.0.759",
@@ -1711,6 +1858,44 @@
     }
   },
   "libraries": {
+    "BottomNavigationBar/1.1.2": {
+      "sha512": "HV5iFmTSMZo8UI98l82gQJ4zmtQ9GHhRqiczjc580byZWQpiBY9H3r5PtAPF8JFmYs0/jSImKbh8DXd8ncWcRg==",
+      "type": "package",
+      "path": "bottomnavigationbar/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bottomnavigationbar.1.1.2.nupkg.sha512",
+        "bottomnavigationbar.nuspec",
+        "lib/MonoAndroid403/BottomNavigationBar.dll",
+        "lib/MonoAndroid403/BottomNavigationBar.xml"
+      ]
+    },
+    "Newtonsoft.Json/8.0.3": {
+      "sha512": "KGsYQdS2zLH+H8x2cZaSI7e+YZ4SFIbyy1YJQYl6GYBWjf5o4H1A68nxyq+WTyVSOJQ4GqS/DiPE+UseUizgMg==",
+      "type": "package",
+      "path": "newtonsoft.json/8.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "newtonsoft.json.8.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
     "sqlite-net-pcl/1.8.116": {
       "sha512": "W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
       "type": "package",
@@ -1956,6 +2141,95 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "ThriveGmbH.BottomNavigationBar.XF/1.0.2": {
+      "sha512": "CAxjraz7v27mWxrChvLLggDRq5Icf3OA0IL3lpGY+rfUGH488kZzBB3WJmfbgh7q5yfBbva51Iuv4tFleepV2A==",
+      "type": "package",
+      "path": "thrivegmbh.bottomnavigationbar.xf/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/BottomBar.Droid.dll",
+        "lib/MonoAndroid10/BottomBar.XamarinForms.dll",
+        "lib/Xamarin.iOS10/BottomBar.XamarinForms.dll",
+        "lib/portable-net45+win8+wpa81/BottomBar.XamarinForms.dll",
+        "thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
+        "thrivegmbh.bottomnavigationbar.xf.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Animated.Vector.Drawable/23.3.0": {
+      "sha512": "qCN7bgA3BpzVybYV5jJa0wQDDYqdomZ7va4gdeyXNAtjEVFPDdKdS8wrD1HuGsQfxShLPcsDFIKd1Z4birTq8g==",
+      "type": "package",
+      "path": "xamarin.android.support.animated.vector.drawable/23.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Xamarin.Android.Support.Animated.Vector.Drawable.dll",
+        "xamarin.android.support.animated.vector.drawable.23.3.0.nupkg.sha512",
+        "xamarin.android.support.animated.vector.drawable.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Design/23.3.0": {
+      "sha512": "aTf8CqR0Ktzgoa9DD6YOR/BvfBcvvmUsQ3O2TtJxas0QQ1wb2raneICKyeZd89oFa3VAQbQzzXUP5NtSurF15w==",
+      "type": "package",
+      "path": "xamarin.android.support.design/23.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid43/Xamarin.Android.Support.Design.dll",
+        "xamarin.android.support.design.23.3.0.nupkg.sha512",
+        "xamarin.android.support.design.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.v4/23.3.0": {
+      "sha512": "14gFJCJF0ZDBVEHIuXefBaGKaVxWMw11yb41dcupnDPtIyQCUEz2BQGmMna2aIWquwAHrhJ8sxdmhmTdGyno+Q==",
+      "type": "package",
+      "path": "xamarin.android.support.v4/23.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Xamarin.Android.Support.v4.dll",
+        "xamarin.android.support.v4.23.3.0.nupkg.sha512",
+        "xamarin.android.support.v4.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.v7.AppCompat/23.3.0": {
+      "sha512": "n5x/PwzhM9ShoESvckqI82cdWn2L3ccdfwdp0LrstcGBlIJMN9mXbntsjyKrfHXU0+RF04Iq5w0begvaAmTxcQ==",
+      "type": "package",
+      "path": "xamarin.android.support.v7.appcompat/23.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Xamarin.Android.Support.v7.AppCompat.dll",
+        "xamarin.android.support.v7.appcompat.23.3.0.nupkg.sha512",
+        "xamarin.android.support.v7.appcompat.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.v7.RecyclerView/23.3.0": {
+      "sha512": "LRzIX3UHTAElbVGlXrNOL3SjsNcftfGDN9M1jhkGz5+uKxyhCFoXkvLMUvmNd5iZLdnFixAgXR+Ctm4tsRQxPQ==",
+      "type": "package",
+      "path": "xamarin.android.support.v7.recyclerview/23.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid403/Xamarin.Android.Support.v7.RecyclerView.dll",
+        "xamarin.android.support.v7.recyclerview.23.3.0.nupkg.sha512",
+        "xamarin.android.support.v7.recyclerview.nuspec"
+      ]
+    },
+    "Xamarin.Android.Support.Vector.Drawable/23.3.0": {
+      "sha512": "A2yyRZp7QsRdPKIjTCQ2Ic84nNToPY5lVa8vJPLV0gJ0XBeKijQQi8biFZZdnXy+tzrUmfX6fJnlbYFSdIMhiQ==",
+      "type": "package",
+      "path": "xamarin.android.support.vector.drawable/23.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Xamarin.Android.Support.Tasks.VectorDrawable.dll",
+        "build/Xamarin.Android.Support.Vector.Drawable.targets",
+        "lib/MonoAndroid403/Xamarin.Android.Support.Vector.Drawable.dll",
+        "xamarin.android.support.vector.drawable.23.3.0.nupkg.sha512",
+        "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
     "Xamarin.AndroidX.Activity/1.2.4.1": {
@@ -3255,6 +3529,116 @@
         "xamarin.essentials.nuspec"
       ]
     },
+    "Xamarin.FFImageLoading/2.4.11.982": {
+      "sha512": "M0sNIQgUPs+le6C2TS4RmZQAURnzaRVizRtnZIZ6/1//qGcEAtEXAGt/tBJz6I1zlP6XlMxq8io6b4sjFP5N9Q==",
+      "type": "package",
+      "path": "xamarin.ffimageloading/2.4.11.982",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/FFImageLoading.Platform.dll",
+        "lib/MonoAndroid10/FFImageLoading.Platform.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Platform.xml",
+        "lib/MonoAndroid10/FFImageLoading.dll",
+        "lib/MonoAndroid10/FFImageLoading.pdb",
+        "lib/MonoAndroid10/FFImageLoading.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Platform.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Platform.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.xml",
+        "lib/netstandard1.0/FFImageLoading.Platform.dll",
+        "lib/netstandard1.0/FFImageLoading.Platform.xml",
+        "lib/netstandard1.0/FFImageLoading.dll",
+        "lib/netstandard1.0/FFImageLoading.pdb",
+        "lib/netstandard1.0/FFImageLoading.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Platform.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Platform.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.xml",
+        "lib/tizen40/FFImageLoading.Platform.dll",
+        "lib/tizen40/FFImageLoading.Platform.pdb",
+        "lib/tizen40/FFImageLoading.Platform.xml",
+        "lib/tizen40/FFImageLoading.dll",
+        "lib/tizen40/FFImageLoading.pdb",
+        "lib/tizen40/FFImageLoading.xml",
+        "lib/uap/FFImageLoading.Platform.dll",
+        "lib/uap/FFImageLoading.Platform.pdb",
+        "lib/uap/FFImageLoading.Platform.xml",
+        "lib/uap/FFImageLoading.dll",
+        "lib/uap/FFImageLoading.pdb",
+        "lib/uap/FFImageLoading.xml",
+        "lib/win81/FFImageLoading.Platform.dll",
+        "lib/win81/FFImageLoading.Platform.pdb",
+        "lib/win81/FFImageLoading.Platform.xml",
+        "lib/win81/FFImageLoading.dll",
+        "lib/win81/FFImageLoading.pdb",
+        "lib/win81/FFImageLoading.xml",
+        "lib/wpa81/FFImageLoading.Platform.dll",
+        "lib/wpa81/FFImageLoading.Platform.pdb",
+        "lib/wpa81/FFImageLoading.Platform.xml",
+        "lib/wpa81/FFImageLoading.dll",
+        "lib/wpa81/FFImageLoading.pdb",
+        "lib/wpa81/FFImageLoading.xml",
+        "xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+        "xamarin.ffimageloading.nuspec"
+      ]
+    },
+    "Xamarin.FFImageLoading.Forms/2.4.11.982": {
+      "sha512": "7X4t3J1wJj0/0o8+vd91hzSYlrqEeMFC7Mj+0T8O+fcbRSHo/c+QbWscEQiT4AaKCwyO709xq+7aY2XXbK/H7g==",
+      "type": "package",
+      "path": "xamarin.ffimageloading.forms/2.4.11.982",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/FFImageLoading.Forms.Platform.dll",
+        "lib/MonoAndroid10/FFImageLoading.Forms.Platform.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Forms.Platform.xml",
+        "lib/MonoAndroid10/FFImageLoading.Forms.dll",
+        "lib/MonoAndroid10/FFImageLoading.Forms.pdb",
+        "lib/MonoAndroid10/FFImageLoading.Forms.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.Platform.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.Platform.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.Platform.xml",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.dll",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.pdb",
+        "lib/Xamarin.Mac20/FFImageLoading.Forms.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.Platform.xml",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.dll",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.pdb",
+        "lib/Xamarin.iOS10/FFImageLoading.Forms.xml",
+        "lib/netstandard1.0/FFImageLoading.Forms.dll",
+        "lib/netstandard1.0/FFImageLoading.Forms.pdb",
+        "lib/netstandard1.0/FFImageLoading.Forms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Forms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Forms.pdb",
+        "lib/portable-win+net45+wp80+win81+wpa81/FFImageLoading.Forms.xml",
+        "lib/tizen40/FFImageLoading.Forms.Platform.dll",
+        "lib/tizen40/FFImageLoading.Forms.Platform.pdb",
+        "lib/tizen40/FFImageLoading.Forms.Platform.xml",
+        "lib/tizen40/FFImageLoading.Forms.dll",
+        "lib/tizen40/FFImageLoading.Forms.pdb",
+        "lib/tizen40/FFImageLoading.Forms.xml",
+        "lib/uap/FFImageLoading.Forms.Platform.dll",
+        "lib/uap/FFImageLoading.Forms.Platform.pdb",
+        "lib/uap/FFImageLoading.Forms.Platform.xml",
+        "lib/uap/FFImageLoading.Forms.dll",
+        "lib/uap/FFImageLoading.Forms.pdb",
+        "lib/uap/FFImageLoading.Forms.xml",
+        "xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+        "xamarin.ffimageloading.forms.nuspec"
+      ]
+    },
     "Xamarin.Forms/5.0.0.2337": {
       "sha512": "2AYl2V1YHjEDEmA5d+aP382ielCKr8d/jo3zCgPSvLE/4Pw/em7pHBGmN3yZ/WzxIMV16f7wBfoFCHesMud0AA==",
       "type": "package",
@@ -3593,6 +3977,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v12.0": [
+      "ThriveGmbH.BottomNavigationBar.XF >= 1.0.2",
       "TrainingConstructor >= 1.0.0",
       "Xamarin.Essentials >= 1.7.1",
       "Xamarin.Forms >= 5.0.0.2337",
@@ -3642,6 +4027,10 @@
     "frameworks": {
       "monoandroid12.0": {
         "dependencies": {
+          "ThriveGmbH.BottomNavigationBar.XF": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.1, )"

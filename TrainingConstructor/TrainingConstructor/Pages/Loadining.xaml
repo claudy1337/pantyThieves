@@ -20,17 +20,12 @@
                    FontSize="20"
                    HorizontalTextAlignment="Center"/>
 
-            <Button BackgroundColor="#FF7A00"
-                    Margin="0,50,0,0"
+            <Button Margin="0,50,0,0"
                     VerticalOptions="End"
                     HorizontalOptions="Center"
                     Text="start workout" 
-                    TextColor="White" 
-                    FontSize="15"
-                    HeightRequest="62"
-                    WidthRequest="250"
-                    CornerRadius="28"
-                    FontFamily="Montserrat-Medium.ttf"/>
+                    x:Name="IncomingAuth"
+                    Clicked="IncomingAuth_Clicked"/>
             
         </StackLayout>
      

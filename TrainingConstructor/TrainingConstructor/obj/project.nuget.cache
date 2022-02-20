@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uqSH9Flo2pCY8tjvy43VPNAPif+rT0r6Pv0uMJmiS2J8IUwRilTZdpg2GYgkX/r5TPPM3NRwQKTY/X4yzpm20Q==",
+  "dgSpecHash": "F/N58VOZar95ii7DDxivH9/R8qlAUOaP8YrEd7N+5pBmD2jx/PYQehhyDw1FHWssQqvchZ6EBV1/B5XI+tTjZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\claud\\source\\repos\\TrainingConstructor\\TrainingConstructor\\TrainingConstructor\\TrainingConstructor.csproj",
   "expectedPackageFiles": [
@@ -18,11 +18,25 @@
     "C:\\Users\\claud\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\thrivegmbh.bottomnavigationbar.xf\\1.0.2\\thrivegmbh.bottomnavigationbar.xf.1.0.2.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\xamarin.essentials\\1.7.1\\xamarin.essentials.1.7.1.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\xamarin.forms\\5.0.0.2337\\xamarin.forms.5.0.0.2337.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\xamarin.forms.debugrainbows\\1.1.4\\xamarin.forms.debugrainbows.1.1.4.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\xamarin.forms.pancakeview\\2.3.0.759\\xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2337\\xamarin.forms.visual.material.5.0.0.2337.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"ThriveGmbH.BottomNavigationBar.XF 1.0.2\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETStandard,Version=v2.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "ThriveGmbH.BottomNavigationBar.XF",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

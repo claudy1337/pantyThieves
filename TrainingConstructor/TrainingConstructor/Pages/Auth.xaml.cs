@@ -16,5 +16,10 @@ namespace TrainingConstructor.Pages
         {
             InitializeComponent();
         }
+
+        private void WorkoutTracker_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
