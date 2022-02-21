@@ -7,7 +7,7 @@
              NavigationPage.HasNavigationBar="False">
     <TabbedPage.Children>
         
-            <local:Auth IconImageSource="plus.png"/>
+            <local:InfoExercise IconImageSource="plus.png"/>
             <local:Profile IconImageSource="plus.png"/>
             <local:InfoExercise IconImageSource="plus.png"/>
      

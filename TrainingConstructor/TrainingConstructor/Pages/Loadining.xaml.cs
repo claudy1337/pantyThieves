@@ -20,7 +20,7 @@ namespace TrainingConstructor.Pages
 
         private async void IncomingAuth_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Page1());
+            await Navigation.PushAsync(new Auth());
         }
     }
 }

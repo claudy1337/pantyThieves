@@ -17,9 +17,9 @@ namespace TrainingConstructor.Pages
             InitializeComponent();
         }
 
-        private void WorkoutTracker_Clicked(object sender, EventArgs e)
+        private async void BRegistration_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new Page1());
         }
     }
 }

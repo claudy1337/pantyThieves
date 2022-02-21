@@ -2,41 +2,49 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TrainingConstructor.Pages.Auth"
-             BackgroundImageSource="auth.png"
+             BackgroundImageSource="loading.png"
              Visual="Default"
+             NavigationPage.HasNavigationBar="False"
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
     <ContentPage.Content>
-        <FlexLayout JustifyContent="Center" Direction="Column" VerticalOptions="Center" Margin="25">
+        <FlexLayout JustifyContent="Center" Direction="Column" VerticalOptions="Start" Margin="25,-22,25,0">
+            
+            <StackLayout >
+                <Label Text="Authoriation" TextColor="White" HorizontalOptions="Center" Margin="0, 10,0,0" FontSize="41" FontFamily="Montserrat-BlackItalic.ttf"/>
+            </StackLayout>
 
-            <yummy:PancakeView>
+
+            <yummy:PancakeView Margin="0,90,0,0">
                 <yummy:PancakeView.Border>
-                    <yummy:Border Thickness="20">
+                    <yummy:Border>
                     </yummy:Border>
                 </yummy:PancakeView.Border>
                 <StackLayout>
-                    <Entry Placeholder="Name" 
+                    <Entry Placeholder="Login" 
                                Margin="0, 59,0,10" 
-                               x:Name="Nameq"
-                               Text="{Binding Name}"/>
+                               x:Name="Login"
+                               Text="{Binding Login}"/>
                 </StackLayout>
             </yummy:PancakeView>
 
             <yummy:PancakeView>
                 <yummy:PancakeView.Border>
-                    <yummy:Border Thickness="20">
+                    <yummy:Border>
                     </yummy:Border>
                 </yummy:PancakeView.Border>
                 <StackLayout>
-                    <Entry Placeholder="Name" 
+                    <Entry Placeholder="Password" 
                                Margin="0, 59,0,0" 
-                               x:Name="Nameqe"
-                               Text="{Binding Name}"/>
+                               x:Name="Password"
+                               Text="{Binding Password}"
+                               IsPassword="True"/>
                 </StackLayout>
             </yummy:PancakeView>
 
             <StackLayout Margin="0,204,0,0">
                 <Button x:Name="BRegistration" 
-                        Text="Enter"/>
+                        Text="Enter"
+                        Clicked="BRegistration_Clicked"/>
             </StackLayout>
         </FlexLayout>
     </ContentPage.Content>
