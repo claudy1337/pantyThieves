@@ -8,3 +8,5 @@ using Xamarin.Forms;
 [assembly:ExportFont("Montserrat-Light.ttf", Alias = "Montserrat-Light.ttf")]
 [assembly:ExportFont("Montserrat-Medium.ttf", Alias = "Montserrat-Medium.ttf")]
 [assembly:ExportFont("Montserrat-Bold.ttf", Alias = "Montserrat-Bold.ttf")]
+[assembly:ExportFont("Montserrat-Thin.ttf", Alias = "Montserrat-Thin.ttf")] 
+[assembly:ExportFont("Montserrat-SemiBold.ttf", Alias = "Montserrat-SemiBold.ttf")]

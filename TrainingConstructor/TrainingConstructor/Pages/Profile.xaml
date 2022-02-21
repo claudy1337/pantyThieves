@@ -17,7 +17,7 @@
                        HeightRequest="31"
                        HorizontalOptions="Center"
                        x:Name="UserImage">
-                    <Button ImageSource="plus.png"
+                    <Button ImageSource="{Binding Path}"
                             WidthRequest="34" 
 
                             x:Name="UserImages"
@@ -105,7 +105,9 @@
                 </FlexLayout>
                 
                 <StackLayout VerticalOptions="EndAndExpand">
-                    <Button Text="Update Profil"/>
+                    <Button Text="Update Profil"
+                            x:Name="SaveProfile"
+                            Clicked="SaveProfile_Clicked"/>
                 </StackLayout>
                 
             </StackLayout>
