@@ -1,13 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TrainingConstructor.Pages.InfoExercise">
+             x:Class="TrainingConstructor.Pages.InfoExercise"
+             Background="#F2F2F2">
     <ContentPage.Content>
-        <FlexLayout JustifyContent="SpaceAround" Direction="Column" >
-            <Frame VerticalOptions="Start" HorizontalOptions="Center" HeightRequest="40" BackgroundColor="Black">
+        <FlexLayout JustifyContent="SpaceAround" Direction="Column">
+            
+            <Frame VerticalOptions="Start"
+                   HorizontalOptions="Center" 
+                   HeightRequest="40"
+                   CornerRadius="10"
+                   WidthRequest="100"
+                   BackgroundColor="White">
+                <Button Text="sd"/>
             </Frame>
-            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-                <Label Text="Abobus"/>
+
+            <StackLayout>
+                <Image Source="training.png"
+                       Margin="0,0,0,-25"/>
+            </StackLayout>
+            
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Margin="30">
+                <Label Text="Lorem Ipsum 
+                       is simply dummy text 
+                       of the printing and 
+                       typesetting industry. 
+                       Lorem Ipsum has been the
+                       industry's standard dummy text 
+                       ever since the 1500s, when an 
+                       unknown printer took a galley of 
+                       type and scrambled it to make a 
+                       type specimen book." TextType="Html"
+                       FontFamily="Montserrat-Light.ttf"
+                       FontSize="20"
+                       Margin="0,0,0,20"/>
+
+                <StackLayout>
+                    <Image Source="training.png"
+                           Margin="0,0,0,30"/>
+                </StackLayout>
+                
             </StackLayout>
         </FlexLayout>
     </ContentPage.Content>

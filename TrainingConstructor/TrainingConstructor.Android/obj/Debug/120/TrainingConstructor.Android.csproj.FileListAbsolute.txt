@@ -1478,3 +1478,4 @@ C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\training.png
