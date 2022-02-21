@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\TrainingConstructor",
-    "\\TrainingConstructor\\TrainingConstructor"
+    "\\TrainingConstructor\\TrainingConstructor",
+    "\\TrainingConstructor\\TrainingConstructor\\Pages"
   ],
-  "SelectedNode": "\\TrainingConstructor\\TrainingConstructor\\App.xaml",
+  "SelectedNode": "\\TrainingConstructor\\TrainingConstructor\\Pages\\Auth.xaml",
   "PreviewInSolutionExplorer": false
 }
