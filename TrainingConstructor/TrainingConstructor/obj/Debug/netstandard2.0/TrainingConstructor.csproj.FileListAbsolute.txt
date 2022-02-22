@@ -38,3 +38,4 @@ C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\Pages\InfoExercise.xaml.g.cs
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\Pages\ListExercise.xaml.g.cs
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\refint\TrainingConstructor.dll
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor\obj\Debug\netstandard2.0\Pages\UserListExercise.xaml.g.cs

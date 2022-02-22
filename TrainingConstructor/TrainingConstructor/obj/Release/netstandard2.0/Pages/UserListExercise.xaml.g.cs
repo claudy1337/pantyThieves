@@ -8,17 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TrainingConstructor.Pages.UserListExercise.xaml", "Pages/UserListExercise.xaml", typeof(global::TrainingConstructor.Pages.ListExercise))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("TrainingConstructor.Pages.UserListExercise.xaml", "Pages/UserListExercise.xaml", typeof(global::TrainingConstructor.Pages.UserListExercise))]
 
 namespace TrainingConstructor.Pages {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Pages\\UserListExercise.xaml")]
-    public partial class ListExercise : global::Xamarin.Forms.ContentPage {
+    public partial class UserListExercise : global::Xamarin.Forms.ContentPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.ListView MyListView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ListExercise));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(UserListExercise));
+            MyListView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "MyListView");
         }
     }
 }

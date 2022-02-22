@@ -3,34 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TrainingConstructor.Pages.ListExercise"
              xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
-             xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard">
-    <!---
-  <ListView x:Name="MyListView"
-            ItemsSource="{Binding Items}"
-            ItemTapped="Handle_ItemTapped"
-            CachingStrategy="RecycleElement"
-            Margin="10,80,10,40"
-            >
-   
-    <ListView.ItemTemplate>
-      <DataTemplate>
-        <ViewCell Height="450">
-                    <Frame CornerRadius="190">
-                        <Image Source="plus.png"/>
-                    </Frame>
-                </ViewCell>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-
-  </ListView> 
-    
-    -->
+             xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard"
+             BackgroundImageSource="loading.png">
     <ScrollView>
         <StackLayout>
-            <StackLayout>
-                <Label Text="Workout List" HorizontalOptions="Center" Margin="0,15,0,0" FontSize="25"/>
-            </StackLayout>
-            <Frame Margin="40" Padding="-20" CornerRadius="60" BorderColor="Black" >
+         
+                <Label Text="Workout List" 
+                       HorizontalOptions="Center" 
+                       FontFamily="Montserrat-BlackItalic.ttf"
+                       TextColor="White" 
+                       Margin="0,15,0,0" 
+                       FontSize="35"/>
+           
+            
+            <!---Waling -->
+            <Frame Margin="35" Padding="-20" CornerRadius="60" BorderColor="Black">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*" />
@@ -54,7 +41,15 @@
                         HorizontalOptions="Start"
                         Margin="-30,0,0,0"/>
 
-                    <combobox:SfComboBox HorizontalOptions="CenterAndExpand" Grid.ColumnSpan="3"  WidthRequest="120" HeightRequest="40" Grid.Column="2"  Grid.Row="1" Margin="0,0,0,0"  IsEditableMode="false"  x:Name="comboBox2">
+                    <combobox:SfComboBox HorizontalOptions="CenterAndExpand" 
+                                         Grid.ColumnSpan="3"  
+                                         WidthRequest="120" 
+                                         HeightRequest="40" 
+                                         Grid.Column="2"  
+                                         Grid.Row="1" 
+                                         Margin="0,0,0,0"  
+                                         IsEditableMode="false">
+                        
                         <combobox:SfComboBox.ComboBoxSource>
                             <ListCollection:List x:TypeArguments="x:String">
                                 <x:String>10min</x:String>
@@ -63,11 +58,12 @@
                             </ListCollection:List>
                         </combobox:SfComboBox.ComboBoxSource>
                     </combobox:SfComboBox>
-
-                    <Button  Grid.Row="3" 
-                        Grid.Column="2" 
-                        HeightRequest="40"
+                
+                    <Button
+                        HeightRequest="30"
                         WidthRequest="110"
+                        Grid.Row="3" 
+                        Grid.Column="2" 
                         Grid.ColumnSpan="3"
                         Margin="0,0,0,0"
                         Text ="add"
@@ -83,8 +79,10 @@
                         FontSize="20"/>
                 </Grid>
             </Frame>
+            
+            <!---Cycling -->
 
-            <Frame Margin="40" Padding="-20" CornerRadius="60" BorderColor="Black" >
+            <Frame Margin="35" Padding="-20" CornerRadius="60" BorderColor="Black" >
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*" />
@@ -103,12 +101,19 @@
 
                     <Image  Grid.Row="2" 
                         Grid.Column="1" 
-                        Source="walking.png"
+                        Source="Cycling.png"
                         HeightRequest="40" WidthRequest="50"
                         HorizontalOptions="Start"
                         Margin="-30,0,0,0"/>
 
-                    <combobox:SfComboBox HorizontalOptions="CenterAndExpand" Grid.ColumnSpan="3"  WidthRequest="120" HeightRequest="40" Grid.Column="2"  Grid.Row="1" Margin="0,0,0,0"  IsEditableMode="false">
+                    <combobox:SfComboBox HorizontalOptions="CenterAndExpand" 
+                                         Grid.ColumnSpan="3"  
+                                         WidthRequest="120" 
+                                         HeightRequest="40" 
+                                         Grid.Column="2" 
+                                         Grid.Row="1" 
+                                         Margin="0,0,0,0" 
+                                         IsEditableMode="false">
                         <combobox:SfComboBox.ComboBoxSource>
                             <ListCollection:List x:TypeArguments="x:String">
                                 <x:String>10min</x:String>
@@ -132,14 +137,76 @@
                     <Label  Grid.Row="2" 
                         Grid.Column="1" 
                         Grid.ColumnSpan="2"
-                        Text ="Walking"
+                        Text ="Cycling"
                         Margin="20,10,0,0"
                         HorizontalOptions="CenterAndExpand"
                         FontSize="20"/>
                 </Grid>
             </Frame>
 
-          
+            <!--Workout -->
+            <Frame Margin="35" Padding="-20" CornerRadius="60" BorderColor="Black" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image  Grid.Row="2" 
+                        Grid.Column="1" 
+                        Source="Workout.png"
+                        HeightRequest="40" WidthRequest="50"
+                        HorizontalOptions="Start"
+                        Margin="-30,0,0,0"/>
+
+                    <combobox:SfComboBox HorizontalOptions="CenterAndExpand" 
+                                         Grid.ColumnSpan="3"  
+                                         WidthRequest="120" 
+                                         HeightRequest="40" 
+                                         Grid.Column="2"  
+                                         Grid.Row="1" 
+                                         Margin="0,0,0,0"  
+                                         IsEditableMode="false">
+                        <combobox:SfComboBox.ComboBoxSource>
+                            <ListCollection:List x:TypeArguments="x:String">
+                                <x:String>10min</x:String>
+                                <x:String>20min</x:String>
+                                <x:String>1h</x:String>
+                            </ListCollection:List>
+                        </combobox:SfComboBox.ComboBoxSource>
+                    </combobox:SfComboBox>
+
+                    <Button
+                        HeightRequest="30"
+                        WidthRequest="110"
+                        Grid.Row="3" 
+                        Grid.Column="2" 
+                        Grid.ColumnSpan="3"
+                        Margin="0,0,0,0"
+                        Text ="add"
+                        FontSize="17"
+                        HorizontalOptions="CenterAndExpand" />
+
+                    <Label  Grid.Row="2" 
+                        Grid.Column="1" 
+                        Grid.ColumnSpan="2"
+                        Text ="Workout"
+                        Margin="20,10,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        FontSize="20"/>
+                </Grid>
+            </Frame>
+
 
         </StackLayout>
     </ScrollView>

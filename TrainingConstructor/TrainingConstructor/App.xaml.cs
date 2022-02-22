@@ -31,7 +31,7 @@ namespace TrainingConstructor
         public App()
         {
             InitializeComponent();
-            MainPage = MainPage = new NavigationPage(new Page1());
+            MainPage = MainPage = new NavigationPage(new Loadining());
         }
 
         protected override void OnStart()
