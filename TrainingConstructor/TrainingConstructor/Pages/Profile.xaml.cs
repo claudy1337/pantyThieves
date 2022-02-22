@@ -38,8 +38,8 @@ namespace TrainingConstructor.Pages
         }
         protected override void OnAppearing()
         {
-            App.Db.GetItems();
-            base.OnAppearing();
+           // App.Db.GetItems();
+           // base.OnAppearing();
         }
 
 
