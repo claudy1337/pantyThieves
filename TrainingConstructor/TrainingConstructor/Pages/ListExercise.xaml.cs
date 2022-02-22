@@ -27,7 +27,7 @@ namespace TrainingConstructor.Pages
                 "Item 5"
             };
 
-            MyListView.ItemsSource = Items;
+            //MyListView.ItemsSource = Items;
         }
 
         async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)

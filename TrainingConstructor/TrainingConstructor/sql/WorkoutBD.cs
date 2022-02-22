@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using SQLite;
+using TrainingConstructor.Pages;
 using TrainingConstructor.sql;
-
 
 namespace TrainingConstructor.sql
 {
@@ -15,7 +15,6 @@ namespace TrainingConstructor.sql
             db = new SQLiteConnection(dbPath);
             db.CreateTable<Workout>();
         }
-        
 
         public IEnumerable<Workout> GetItems()
         {

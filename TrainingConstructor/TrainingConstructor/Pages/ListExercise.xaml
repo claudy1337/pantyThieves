@@ -2,41 +2,24 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TrainingConstructor.Pages.ListExercise">
+    <!---
   <ListView x:Name="MyListView"
             ItemsSource="{Binding Items}"
             ItemTapped="Handle_ItemTapped"
-            CachingStrategy="RecycleElement">
-    <!--Built in Cells-->
-    <ListView.ItemTemplate>
-        <DataTemplate>
-                <ViewCell>
-                    <Grid Padding="12" WidthRequest="190" HeightRequest="190">
-                        <Frame CornerRadius="30" WidthRequest="190"  HeightRequest="190" HasShadow="True">
-                            <StackLayout Orientation="Horizontal">
-                                <Image Source="plus.png" HeightRequest="200" WidthRequest="200"/>
-                                <Label Text="Abobus"/>
-                            </StackLayout>
-                        </Frame>
-                    </Grid>
-                </ViewCell>
-           
-        </DataTemplate>
-    </ListView.ItemTemplate>
-    
-    <!--Custom View Cells-->
-    <!--
+            CachingStrategy="RecycleElement"
+            Margin="10,80,10,40"
+            >
+   
     <ListView.ItemTemplate>
       <DataTemplate>
-        <ViewCell>
-          <StackLayout>
-            <Label Text="{Binding Text}" 
-                   Style="{DynamicResource ListItemTextStyle}" />
-            <Label Text="{Binding Detail}" 
-                   Style="{DynamicResource ListItemDetailTextStyle}"/>
-          </StackLayout>
-        </ViewCell>
+        <ViewCell Height="450">
+                    <Frame CornerRadius="190">
+                        <Image Source="plus.png"/>
+                    </Frame>
+                </ViewCell>
       </DataTemplate>
     </ListView.ItemTemplate>
+
+  </ListView> 
     -->
-  </ListView>
 </ContentPage>

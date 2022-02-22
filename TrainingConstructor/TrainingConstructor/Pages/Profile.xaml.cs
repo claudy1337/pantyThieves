@@ -29,27 +29,34 @@ namespace TrainingConstructor.Pages
 
         private void SaveProfile_Clicked(object sender, EventArgs e)
         {
-            Workout workout = new Workout();
-            workout.Time = pathName;
-            App.Db.SaveItem(workout);
+            Workout img = new Workout();
+           
+            img.Puth = pathName;
+            App.Db.SaveItem(img);
+            
+
         }
         protected override void OnAppearing()
         {
-            
+            App.Db.GetItems();
             base.OnAppearing();
         }
 
-        private async void UserImages_Clicked(object sender, EventArgs e)
+
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
+
             try
             {
                 var photo = await MediaPicker.PickPhotoAsync();
                 pathName = photo.FullPath;
+                
             }
             catch (Exception ex)
             {
                 await DisplayAlert("Сообщение об ошибке", ex.Message, "OK");
             }
         }
+
     }
 }

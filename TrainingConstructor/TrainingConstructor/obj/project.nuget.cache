@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P+ajz7fJufUxdf/FYl+XRf+KNgR00tAYrIzYeKOPcwyOh4yiEnZ48W3kkJ8SxLYrHCQ2KIpJ2mNbhE95aFHX/Q==",
+  "dgSpecHash": "7xJ6YB75wqiarmV7nDcBzVYAQk61vWw3L/aPtkBHINjSpRh/6Gl0FdcYQpqUFoi4+hXZ452Kj7P7z/i4xo/oww==",
   "success": true,
   "projectFilePath": "C:\\Users\\claud\\source\\repos\\pantyThieves\\TrainingConstructor\\TrainingConstructor\\TrainingConstructor.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,9 @@
     "C:\\Users\\claud\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\syncfusion.licensing\\19.4.0.53\\syncfusion.licensing.19.4.0.53.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\syncfusion.xamarin.core\\19.4.0.53\\syncfusion.xamarin.core.19.4.0.53.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\syncfusion.xamarin.sfcombobox\\19.4.0.53\\syncfusion.xamarin.sfcombobox.19.4.0.53.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",

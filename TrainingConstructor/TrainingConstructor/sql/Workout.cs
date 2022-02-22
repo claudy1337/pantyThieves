@@ -14,7 +14,8 @@ namespace TrainingConstructor.sql
         public int Id { get; set;}
         public string Name { get; set;}
         public string Title { get; set;}
-        public string Path { get; set;}
+       
+        public string Puth { get; set;}
         public string Time { get; set;}
         public int Count { get; set;}
     }

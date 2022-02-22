@@ -17,11 +17,19 @@
             <StackLayout>
 
                 <Frame CornerRadius="180" 
+                       IsClippedToBounds="True"
                        VerticalOptions="Center" 
-                       HeightRequest="31"
+                       HeightRequest="50"
+                       WidthRequest="50"
                        HorizontalOptions="Center"
                        x:Name="UserImage">
-                    <ImageButton Source="plus.png"  WidthRequest="34"  x:Name="UserImages" Clicked="UserImages_Clicked"/>
+
+                    <Image Aspect="AspectFill" HeightRequest="60"   WidthRequest="60" x:Name="AddUserImage" Margin="-12">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
                 </Frame>
                 <StackLayout>
 
@@ -112,7 +120,8 @@
                 <StackLayout VerticalOptions="EndAndExpand">
                     <Button Text="Update Profil"
                             x:Name="SaveProfile"
-                            Clicked="SaveProfile_Clicked"/>
+                            Clicked="SaveProfile_Clicked"
+                            Margin="0,0,0,5"/>
                 </StackLayout>
                 
             </StackLayout>

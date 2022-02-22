@@ -7,9 +7,8 @@
              NavigationPage.HasNavigationBar="False"
              xmlns:local="clr-namespace:TrainingConstructor.Pages">
     <TabbedPage.Children>
-        
-            <local:ListExercise IconImageSource="plus.png"/>
-       
+
+        <local:ListExercise IconImageSource="plus.png"/>
         <local:InfoExercise IconImageSource="plus.png"/>
         <local:Profile HeightRequest="30" IconImageSource="plus.png" bnb:BottomBarPageExtensions.TabColor="Black"/>
 
