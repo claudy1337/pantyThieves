@@ -6,6 +6,8 @@ using SQLite;
 using System.IO;
 using TrainingConstructor.Pages;
 
+
+
 namespace TrainingConstructor
 {
     public partial class App : Application
@@ -29,7 +31,7 @@ namespace TrainingConstructor
         public App()
         {
             InitializeComponent();
-            MainPage = MainPage = new NavigationPage(new Loadining());
+            MainPage = MainPage = new NavigationPage(new Page1());
         }
 
         protected override void OnStart()

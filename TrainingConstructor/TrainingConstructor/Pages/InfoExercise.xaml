@@ -7,10 +7,9 @@
         <FlexLayout JustifyContent="SpaceAround" Direction="Column">
             
             <Frame VerticalOptions="Start"
-                   HorizontalOptions="Center" 
+                   HorizontalOptions="Center"
                    HeightRequest="40"
-                   CornerRadius="10"
-                   WidthRequest="100"
+                   CornerRadius="10"        
                    BackgroundColor="White">
                 <Button Text="sd"/>
             </Frame>

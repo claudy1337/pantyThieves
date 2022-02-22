@@ -15,15 +15,13 @@
             </StackLayout>
 
             <StackLayout>
+
                 <Frame CornerRadius="180" 
                        VerticalOptions="Center" 
                        HeightRequest="31"
                        HorizontalOptions="Center"
                        x:Name="UserImage">
-                    <Button ImageSource="{Binding Path}"
-                            WidthRequest="34" 
-                            x:Name="UserImages"
-                            Clicked="UserImages_Clicked"/>
+                    <ImageButton Source="plus.png"  WidthRequest="34"  x:Name="UserImages" Clicked="UserImages_Clicked"/>
                 </Frame>
                 <StackLayout>
 
@@ -96,7 +94,7 @@
                        HeightRequest="64"
                        WidthRequest="100"
                        HorizontalOptions="Center">
-                        <RadioButton Content="Yes"/>
+                        <CheckBox/>
                     </Frame>
 
                     <Frame CornerRadius="20" 
@@ -104,7 +102,10 @@
                        HeightRequest="64"
                        WidthRequest="100"
                        HorizontalOptions="Center">
-                        <RadioButton Content="No"/>
+
+                        <CheckBox>
+                            
+                        </CheckBox>
                     </Frame>
                 </FlexLayout>
                 

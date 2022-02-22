@@ -25,6 +25,20 @@ namespace TrainingConstructor.Pages
             InitializeComponent();           
         }
 
+
+
+        private void SaveProfile_Clicked(object sender, EventArgs e)
+        {
+            Workout workout = new Workout();
+            workout.Time = pathName;
+            App.Db.SaveItem(workout);
+        }
+        protected override void OnAppearing()
+        {
+            
+            base.OnAppearing();
+        }
+
         private async void UserImages_Clicked(object sender, EventArgs e)
         {
             try
@@ -36,13 +50,6 @@ namespace TrainingConstructor.Pages
             {
                 await DisplayAlert("Сообщение об ошибке", ex.Message, "OK");
             }
-        }
-
-        private void SaveProfile_Clicked(object sender, EventArgs e)
-        {
-            Workout workout = new Workout();
-            workout.Path = pathName;
-            App.Db.SaveItem(workout);
         }
     }
 }

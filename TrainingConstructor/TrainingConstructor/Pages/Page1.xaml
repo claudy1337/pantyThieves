@@ -2,14 +2,16 @@
 <bnb:BottomBarPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:bnb="clr-namespace:BottomBar.XamarinForms;assembly=BottomBar.XamarinForms"
-             xmlns:local="clr-namespace:TrainingConstructor.Pages"
+            
              x:Class="TrainingConstructor.Pages.Page1"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             xmlns:local="clr-namespace:TrainingConstructor.Pages">
     <TabbedPage.Children>
         
-            <local:InfoExercise IconImageSource="plus.png"/>
-            <local:Profile IconImageSource="plus.png"/>
-            <local:InfoExercise IconImageSource="plus.png"/>
-     
+            <local:ListExercise IconImageSource="plus.png"/>
+       
+        <local:InfoExercise IconImageSource="plus.png"/>
+        <local:Profile HeightRequest="30" IconImageSource="plus.png" bnb:BottomBarPageExtensions.TabColor="Black"/>
+
     </TabbedPage.Children>
 </bnb:BottomBarPage>
