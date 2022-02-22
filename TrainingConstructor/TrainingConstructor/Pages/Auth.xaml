@@ -18,7 +18,7 @@
                        FontFamily="Montserrat-BlackItalic.ttf"/>
             </StackLayout>
 
-
+            <!--Panckace nuget packege cuttom entry login-->
             <yummy:PancakeView Margin="0,90,0,0">
                 <yummy:PancakeView.Border>
                     <yummy:Border>
@@ -32,6 +32,7 @@
                 </StackLayout>
             </yummy:PancakeView>
 
+            <!--Panckace nuget packege cuttom entry password-->
             <yummy:PancakeView>
                 <yummy:PancakeView.Border>
                     <yummy:Border>
@@ -46,9 +47,12 @@
                 </StackLayout>
             </yummy:PancakeView>
 
+            
             <StackLayout>
-                <Label Text="Sign in" HorizontalTextAlignment="End"
-                       FontSize="16" TextColor="White" Margin="10"/>
+                <Label Text="Sign in" 
+                       HorizontalTextAlignment="End"
+                       FontSize="16" 
+                       TextColor="White" Margin="10"/>
             </StackLayout>
             
 

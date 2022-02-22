@@ -7,9 +7,9 @@
              xmlns:local="clr-namespace:TrainingConstructor.Pages">
     <TabbedPage.Children>
         
-        <local:UserListExercise IconImageSource="plus.png"/>
-        <local:ListExercise IconImageSource="plus.png"/>
-        <local:Profile HeightRequest="30" IconImageSource="plus.png"/>
+        <local:UserListExercise IconImageSource="home.png"/>
+        <local:ListExercise IconImageSource="plusE.png"/>
+        <local:Profile HeightRequest="30" IconImageSource="user.png"/>
 
     </TabbedPage.Children>
 </bnb:BottomBarPage>

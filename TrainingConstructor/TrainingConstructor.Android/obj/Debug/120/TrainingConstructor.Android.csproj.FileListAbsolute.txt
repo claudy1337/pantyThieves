@@ -1510,3 +1510,9 @@ C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\src\crc64eeb36180fe6023e2\SfEffectsViewRenderer.java
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\src\crc64f606ab658bf2774f\SfShimmerRenderer.java
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\src\crc64f606ab658bf2774f\ShimmerViewRenderer.java
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\home.png
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\userimage.png
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\user.png
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\backpage.png
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\backpagelight.png
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\pluse

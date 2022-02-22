@@ -24,7 +24,7 @@
                        HorizontalOptions="Center"
                        x:Name="UserImage">
 
-                    <Image Aspect="AspectFill" HeightRequest="60"   WidthRequest="60" x:Name="AddUserImage" Margin="-12">
+                    <Image Aspect="AspectFill" HeightRequest="60"  Source="userImage.png" WidthRequest="60" x:Name="AddUserImage" Margin="-12">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
                         </Image.GestureRecognizers>
