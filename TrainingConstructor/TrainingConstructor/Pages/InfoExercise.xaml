@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TrainingConstructor.Pages.InfoExercise"
              Background="#F2F2F2"
-             xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
-             xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard">
+             NavigationPage.HasNavigationBar="False">
     
     
     <ContentPage.Content>
@@ -16,17 +15,15 @@
                    CornerRadius="10"        
                    BackgroundColor="White">
                 <FlexLayout Direction="Row" JustifyContent="Center">
-                    <Image Source="plus.png" Margin="0,0,60,0"/>
-                    <Label Text="Walking" FontSize="13"/>
-                    <combobox:SfComboBox Margin="0,0,0,0"  IsEditableMode="false" HeightRequest="50" WidthRequest="110" x:Name="comboBox">
-                        <combobox:SfComboBox.ComboBoxSource>
-                            <ListCollection:List x:TypeArguments="x:String">
-                                <x:String>10min</x:String>
-                                <x:String>20min</x:String>
-                                <x:String>1h</x:String>
-                            </ListCollection:List>
-                        </combobox:SfComboBox.ComboBoxSource>
-                    </combobox:SfComboBox>
+                    <StackLayout Margin="-40,0,90,0">
+                        <Image Source="Workout.png"/>
+                    </StackLayout>
+
+                    <StackLayout Margin="40,0,0,0">
+                        <Label Text="Walking" FontSize="25" />
+                    </StackLayout>
+                    
+                    
                 </FlexLayout>
             
             </Frame>

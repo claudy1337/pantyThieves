@@ -40,5 +40,7 @@ namespace TrainingConstructor.Pages
             //Deselect Item
             ((ListView)sender).SelectedItem = null;
         }
+
+       
     }
 }

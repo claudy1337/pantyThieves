@@ -12,6 +12,7 @@ namespace TrainingConstructor.Pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Auth : ContentPage
     {
+       
         public Auth()
         {
             InitializeComponent();
@@ -20,6 +21,11 @@ namespace TrainingConstructor.Pages
         private async void BRegistration_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Page1());
+        }
+
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegistrationPage());
         }
     }
 }

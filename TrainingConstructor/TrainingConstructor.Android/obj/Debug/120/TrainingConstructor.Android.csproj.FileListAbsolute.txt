@@ -1515,4 +1515,4 @@ C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\user.png
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\backpage.png
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\backpagelight.png
-C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\pluse
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\pluse.png

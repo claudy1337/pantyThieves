@@ -52,7 +52,14 @@
                 <Label Text="Sign in" 
                        HorizontalTextAlignment="End"
                        FontSize="16" 
-                       TextColor="White" Margin="10"/>
+                       TextColor="White" Margin="10">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="TapGestureRecognizer_Tapped">
+                        </TapGestureRecognizer>
+                    </Label.GestureRecognizers>
+                </Label>
+                
             </StackLayout>
             
 

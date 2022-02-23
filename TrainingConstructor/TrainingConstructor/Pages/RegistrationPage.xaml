@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrainingConstructor.Pages.RegistrationPage"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             Visual="Default"
+             BackgroundColor="#F2F2F2">
+    <ContentPage.Content>
+        <StackLayout>
+            <FlexLayout Direction="Column" Margin="20">
+
+                <StackLayout Margin="0,-3,0,10">
+                    <Label Text="Registration" 
+                           HorizontalOptions="Center"
+                           FontSize="28"
+                           FontFamily="Montserrat-BlackItalic.ttf"/>
+                </StackLayout>
+
+                <StackLayout>
+
+                    <Frame CornerRadius="180" 
+                       IsClippedToBounds="True"
+                       VerticalOptions="Center" 
+                       HeightRequest="50"
+                       WidthRequest="50"
+                       HorizontalOptions="Center"
+                       x:Name="UserImage">
+
+                        <Image Aspect="AspectFill" HeightRequest="60"  Source="userImage.png" WidthRequest="60" x:Name="AddUserImage" Margin="-12">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer/>
+                            </Image.GestureRecognizers>
+                        </Image>
+
+                    </Frame>
+
+
+                    <StackLayout Margin="0,10,0,0">
+                        
+                        <!--Panckace Login Entry -->
+                        <yummy:PancakeView>
+                            <yummy:PancakeView.Border>
+                                <yummy:Border>
+                                </yummy:Border>
+                            </yummy:PancakeView.Border>
+                            <StackLayout>
+                                <Entry
+                               Placeholder="Login" 
+                               Margin="0,25,0,0" 
+                               x:Name="Login"
+                               Text="{Binding Login}"/>
+                            </StackLayout>
+                        </yummy:PancakeView>
+
+                        <!--Panckace Login Entry   -->
+                        <yummy:PancakeView>
+                            <yummy:PancakeView.Border>
+                                <yummy:Border>
+                                </yummy:Border>
+                            </yummy:PancakeView.Border>
+                            <StackLayout>
+                                <Entry 
+                               IsPassword="True"
+                               Placeholder="Password" 
+                               Margin="0,25,0,0" 
+                               Text="{Binding Password}"/>
+                            </StackLayout>
+                        </yummy:PancakeView>
+                    </StackLayout>
+
+                    
+
+                    <StackLayout VerticalOptions="EndAndExpand">
+                        <Button Text="Create Account"
+                            x:Name="CreateProfile"
+                            Margin="0,60,0,5"/>
+                    </StackLayout>
+
+                </StackLayout>
+            </FlexLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

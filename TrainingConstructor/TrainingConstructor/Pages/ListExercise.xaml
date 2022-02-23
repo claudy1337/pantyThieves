@@ -7,13 +7,17 @@
              BackgroundImageSource="loading.png">
     <ScrollView>
         <StackLayout>
-         
+            <FlexLayout JustifyContent="Center" Direction="Row" HorizontalOptions="Center" >
+                
+                
                 <Label Text="Workout List" 
                        HorizontalOptions="Center" 
                        FontFamily="Montserrat-BlackItalic.ttf"
                        TextColor="White" 
-                       Margin="0,15,0,0" 
+                       Margin="0,-1,0,0" 
                        FontSize="35"/>
+            </FlexLayout>
+            
            
             
             <!---Waling -->
@@ -52,9 +56,12 @@
                         
                         <combobox:SfComboBox.ComboBoxSource>
                             <ListCollection:List x:TypeArguments="x:String">
+                                <x:String>5min</x:String>
                                 <x:String>10min</x:String>
                                 <x:String>20min</x:String>
                                 <x:String>1h</x:String>
+                                <x:String>2h</x:String>
+                               
                             </ListCollection:List>
                         </combobox:SfComboBox.ComboBoxSource>
                     </combobox:SfComboBox>
@@ -116,9 +123,11 @@
                                          IsEditableMode="false">
                         <combobox:SfComboBox.ComboBoxSource>
                             <ListCollection:List x:TypeArguments="x:String">
+                                <x:String>5min</x:String>
                                 <x:String>10min</x:String>
                                 <x:String>20min</x:String>
                                 <x:String>1h</x:String>
+                                <x:String>2h</x:String>
                             </ListCollection:List>
                         </combobox:SfComboBox.ComboBoxSource>
                     </combobox:SfComboBox>
@@ -179,9 +188,11 @@
                                          IsEditableMode="false">
                         <combobox:SfComboBox.ComboBoxSource>
                             <ListCollection:List x:TypeArguments="x:String">
+                                <x:String>5min</x:String>
                                 <x:String>10min</x:String>
                                 <x:String>20min</x:String>
                                 <x:String>1h</x:String>
+                                <x:String>2h</x:String>
                             </ListCollection:List>
                         </combobox:SfComboBox.ComboBoxSource>
                     </combobox:SfComboBox>
