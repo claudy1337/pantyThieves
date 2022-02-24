@@ -3,6 +3,17 @@
 конструктор для создания тренировок на каждый день 
 спринт проект 
 
+Страницы
+===========
+В приложении имеются отличительные страницы от других приложений 
+
+![f1](https://ia.wampi.ru/2022/02/23/IZOBRAZENIE_2022-02-23_031732.png)
+
+
+![f1](https://ie.wampi.ru/2022/02/23/IZOBRAZENIE_2022-02-23_031759.png)
+
+
+
 DATA BASE
 ===========
 **sqllite**
@@ -54,6 +65,7 @@ Packages NuGet
 - Xamarin.Forms.PancakeView
 - Xamarin.Forms.DebugRainbows
 - ThriveGmbH.BottomNavigationBar.XF **BottomBar**
+- Syncfusion.Xamarin.SfComboBox **ComboBox**
 
 BottomBar
 ===========
