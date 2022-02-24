@@ -1487,8 +1487,6 @@ C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\assets\Syncfusion.Licensing.dll
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\assets\Syncfusion.SfComboBox.XForms.Android.dll
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\assets\Syncfusion.SfComboBox.XForms.dll
-C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\androidx\jl\1095cde2-cea4-4dcc-91c2-c474ba5a8dab.jar
-C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\androidx\proguard\19bf13be-b129-4054-9bd0-245ae39ce66e.cfg
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\src\crc640879981a986d658b\SfGradientViewRenderer.java
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\src\crc642fed3152aaceafc3\CloseButtonView.java
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\android\src\crc642fed3152aaceafc3\ItemAdapter.java
@@ -1516,3 +1514,5 @@ C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\backpage.png
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\backpagelight.png
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\pluse.png
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\androidx\jl\266d7129-5f5f-40bd-8fb6-eddd577d8949.jar
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\androidx\proguard\c27db673-4564-46dd-8bdc-85044f595efd.cfg

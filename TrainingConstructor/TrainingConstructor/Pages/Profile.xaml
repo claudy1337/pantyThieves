@@ -61,26 +61,10 @@
                                Placeholder="Login" 
                                Margin="0,25,0,0" 
                                x:Name="Login"
-                                BindingContext="{Binding Login}"/>
+                               BindingContext="{Binding Login}"/>
                         </StackLayout>
                     </yummy:PancakeView>
 
-                    
-                    <yummy:PancakeView>
-                        <yummy:PancakeView.Border>
-                            <yummy:Border>
-                            </yummy:Border>
-                        </yummy:PancakeView.Border>
-                        <StackLayout>
-                            <Entry
-                               FontFamily="Montserrat-Medium.ttf"
-                               Placeholder="BirthDay" 
-                               Margin="0,25,0,0" 
-                               Text="{Binding BirthDay}"/>
-                        </StackLayout>
-                    </yummy:PancakeView>
-
-                    
                     <yummy:PancakeView>
                         <yummy:PancakeView.Border>
                             <yummy:Border>
@@ -95,6 +79,20 @@
                     </yummy:PancakeView>
                 </StackLayout>
 
+                <yummy:PancakeView>
+                    <yummy:PancakeView.Border>
+                        <yummy:Border>
+                        </yummy:Border>
+                    </yummy:PancakeView.Border>
+                    <DatePicker
+                           Margin="10,10,0,0"
+                           FontFamily="Montserrat-Medium.ttf"
+                        MaximumDate="01.01.2009"
+                        MinimumDate="01.01.1965"
+                        TextColor="Black">
+                    </DatePicker>
+                </yummy:PancakeView>
+
                 <StackLayout>
                     <Label Text="Sex" FontSize="18"/>
                 </StackLayout>
@@ -104,18 +102,8 @@
                        HeightRequest="64"
                        WidthRequest="100"
                        HorizontalOptions="Center">
-                        <CheckBox/>
-                    </Frame>
 
-                    <Frame CornerRadius="20" 
-                       VerticalOptions="Center" 
-                       HeightRequest="64"
-                       WidthRequest="100"
-                       HorizontalOptions="Center">
-
-                        <CheckBox>
-                            
-                        </CheckBox>
+                        <Switch IsToggled="true"/>
                     </Frame>
                 </FlexLayout>
                 

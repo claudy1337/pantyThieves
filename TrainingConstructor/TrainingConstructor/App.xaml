@@ -36,9 +36,21 @@
             <Setter Property="TextColor" Value="Black"/>
         </Style>
 
+        <Style TargetType="CheckBox">
+            <Setter Property="Color" Value="Black"/>
+        </Style>
+        
         <Style TargetType="RadioButton">
             <Setter Property="FontFamily" Value="Montserrat-Medium.ttf"/>
             <Setter Property="Visual" Value="Material"/>
+        </Style>
+
+        <Style TargetType="Switch">
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+       
+            <Setter Property="OnColor" Value="Black"/>
+            <Setter Property="ThumbColor" Value="Black"/>
         </Style>
     </Application.Resources>
 </Application>

@@ -52,15 +52,15 @@ namespace TrainingConstructor.Pages
            // base.OnAppearing();
         }
 
-
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
 
             try
             {
+                // выбираем фото
                 var photo = await MediaPicker.PickPhotoAsync();
-                pathName = photo.FullPath;
-                
+                // загружаем в ImageView
+                AddUserImage.Source = ImageSource.FromFile(photo.FullPath);
             }
             catch (Exception ex)
             {
