@@ -12,27 +12,32 @@ namespace TrainingConstructor.Pages
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class UserListExercise : ContentPage
     {
-        public ObservableCollection<string> Items { get; set; }
+     
 
+        public ObservableCollection<Card> ListDetails { get; set; }
         public UserListExercise()
         {
             InitializeComponent();
-
-            Items = new ObservableCollection<string>
+            ListDetails = new ObservableCollection<Card>
             {
-                "Item 1",
-                "Item 2",
-                "Item 3",
-                "Item 4",
-                "Item 5"
+                new Card{ImgIcon = "plus.png", Name = "derr", ImgIcon1="user.png", Name1 = "dsdsds"},
+                new Card{ImgIcon ="plus.png",Name = "dadad", ImgIcon1 = "user.png", Name1="fdad"},
+                new Card{ImgIcon="plus.png", Name = "dsfdds", ImgIcon1 = "fzfdfd", Name1="ddaasd"},
+                new Card{ImgIcon="plus.png", Name = "dsfdds", ImgIcon1 = "fzfdfd", Name1="ddaasd"}
             };
+            BindingContext = this;
 
-            MyListView.ItemsSource = Items;
+            
         }
-
-        async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
+        public class Card
         {
-            await Navigation.PushAsync(new InfoExercise());
+            public string Name { get; set; }
+            public string ImgIcon { get; set; }
+            public string ImgIcon1 { get; set; }
+            public string  Name1 { get; set; }
+            
+
         }
+
     }
 }

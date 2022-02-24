@@ -1,21 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TrainingConstructor.Pages.UserListExercise">
-  <ListView x:Name="MyListView"
-            ItemsSource="{Binding Items}"
-            ItemTapped="Handle_ItemTapped"
-            CachingStrategy="RecycleElement"
-            xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
-             xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard"
-            BackgroundColor="#F2F2F2">
-    <!--Built in Cells-->
-    <ListView.ItemTemplate>
-        <DataTemplate>
-            <TextCell Text="{Binding .}" />
-        </DataTemplate>
-    </ListView.ItemTemplate>
-    
-   
-  </ListView>
+             x:Class="TrainingConstructor.Pages.UserListExercise"
+             NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False">
+
+    <StackLayout>
+        <ListView Visual="Material" ItemsSource="{Binding ListDetails}" HasUnevenRows="True" BackgroundColor="White">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid Padding="15" Margin="10" BackgroundColor="White">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="110"></RowDefinition>
+                            <RowDefinition Height="110"></RowDefinition>
+                             
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10"></ColumnDefinition>
+                            <ColumnDefinition Width="10"></ColumnDefinition>
+
+                            </Grid.ColumnDefinitions >
+                            <FlexLayout JustifyContent="Center" AlignContent="Center" Direction="Column" Margin="70,0,0,0">
+                                <Frame IsClippedToBounds="True" Margin="0,40,0,0" BorderColor="Black" Grid.Row="2" HeightRequest="350" WidthRequest="200" CornerRadius="30" Grid.Column="1" HasShadow="True" Padding="0" BackgroundColor="White">
+                                <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                    <BoxView VerticalOptions="Center" HeightRequest="90" WidthRequest="20"></BoxView>
+                                        <Image Margin="-10,0,0,0" Source="{Binding ImgIcon1}" HorizontalOptions="Center" VerticalOptions="Center"></Image>
+                                        <Label VerticalOptions="Center"  Text="{Binding Name}" Margin="15,0,0,0" FontSize="20" HorizontalOptions="Center" ></Label>
+                                        <Label VerticalOptions="Center" Text="{Binding Name1}" Margin="10,0,0,0" HorizontalOptions="End" FontFamily="Montserrat-Light.ttf" FontSize="20"></Label>
+                                </StackLayout>
+                                
+                            </Frame>
+                            </FlexLayout>
+                        </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+    </StackLayout>
 </ContentPage>
