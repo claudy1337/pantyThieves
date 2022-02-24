@@ -43,7 +43,8 @@
                         Source="walking.png"
                         HeightRequest="40" WidthRequest="50"
                         HorizontalOptions="Start"
-                        Margin="-30,0,0,0"/>
+                        Margin="-30,0,0,0"
+                        x:Name="Image"/>
 
                     <combobox:SfComboBox HorizontalOptions="CenterAndExpand" 
                                          Grid.ColumnSpan="3"  
@@ -75,7 +76,8 @@
                         Margin="0,0,0,0"
                         Text ="add"
                         FontSize="17"
-                        HorizontalOptions="CenterAndExpand" />
+                        HorizontalOptions="CenterAndExpand"
+                        x:Name="AddWalking"/>
 
                     <Label  Grid.Row="2" 
                         Grid.Column="1" 
@@ -83,7 +85,9 @@
                         Text ="Walking"
                         Margin="20,10,0,0"
                         HorizontalOptions="CenterAndExpand"
-                        FontSize="20"/>
+                        FontSize="20"
+                        x:Name="Names"
+                        />
                 </Grid>
             </Frame>
             
@@ -111,7 +115,8 @@
                         Source="Cycling.png"
                         HeightRequest="40" WidthRequest="50"
                         HorizontalOptions="Start"
-                        Margin="-30,0,0,0"/>
+                        Margin="-30,0,0,0"
+                        />
 
                     <combobox:SfComboBox HorizontalOptions="CenterAndExpand" 
                                          Grid.ColumnSpan="3"  
@@ -141,7 +146,8 @@
                         Margin="0,0,0,0"
                         Text ="add"
                         FontSize="17"
-                        HorizontalOptions="CenterAndExpand" />
+                        HorizontalOptions="CenterAndExpand"
+                        x:Name="Cycking"/>
 
                     <Label  Grid.Row="2" 
                         Grid.Column="1" 
@@ -149,7 +155,8 @@
                         Text ="Cycling"
                         Margin="20,10,0,0"
                         HorizontalOptions="CenterAndExpand"
-                        FontSize="20"/>
+                        FontSize="20"
+                        />
                 </Grid>
             </Frame>
 
@@ -176,7 +183,8 @@
                         Source="Workout.png"
                         HeightRequest="40" WidthRequest="50"
                         HorizontalOptions="Start"
-                        Margin="-30,0,0,0"/>
+                        Margin="-30,0,0,0"
+                        />
 
                     <combobox:SfComboBox HorizontalOptions="CenterAndExpand" 
                                          Grid.ColumnSpan="3"  
@@ -206,7 +214,8 @@
                         Margin="0,0,0,0"
                         Text ="add"
                         FontSize="17"
-                        HorizontalOptions="CenterAndExpand" />
+                        HorizontalOptions="CenterAndExpand"
+                        x:Name="Workout"/>
 
                     <Label  Grid.Row="2" 
                         Grid.Column="1" 
@@ -214,7 +223,8 @@
                         Text ="Workout"
                         Margin="20,10,0,0"
                         HorizontalOptions="CenterAndExpand"
-                        FontSize="20"/>
+                        FontSize="20"
+                        />
                 </Grid>
             </Frame>
 

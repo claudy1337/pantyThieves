@@ -22,18 +22,28 @@ namespace TrainingConstructor.Pages
         public string pathName;
         public Profile()
         {
-            InitializeComponent();           
+            InitializeComponent();
+            User user = new User();
+
+            Login.Text = user.Login;
+            user.Name = Name.Text;
+
+               
+            
+            
         }
 
 
 
-        private void SaveProfile_Clicked(object sender, EventArgs e)
+        private async void SaveProfile_Clicked(object sender, EventArgs e)
         {
-            Workout img = new Workout();
-           
-            img.Puth = pathName;
-            App.Db.SaveItem(img);
-            
+            var project = (User)BindingContext;
+
+                if (!String.IsNullOrEmpty(project.Login))
+                {
+                    App.Db.SaveItem(project);
+                }
+                
 
         }
         protected override void OnAppearing()

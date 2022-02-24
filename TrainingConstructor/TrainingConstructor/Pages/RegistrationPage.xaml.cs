@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using TrainingConstructor.sql;
 
 namespace TrainingConstructor.Pages
 {
@@ -15,6 +16,20 @@ namespace TrainingConstructor.Pages
         public RegistrationPage()
         {
             InitializeComponent();
+        }
+
+        private async void CreateProfile_Clicked(object sender, EventArgs e)
+        {
+            User user = new User()
+            {
+                Login = Login.Text,
+             
+                Password = Password.Text,
+                Name = Name.Text
+            };
+            App.Db.AddUser(user);
+
+            await Navigation.PushAsync(new Profile());
         }
     }
 }

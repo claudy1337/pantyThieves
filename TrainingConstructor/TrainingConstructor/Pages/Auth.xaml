@@ -27,8 +27,7 @@
                 <StackLayout>
                     <Entry Placeholder="Login" 
                                Margin="0, 59,0,10" 
-                               x:Name="Login"
-                               Text="{Binding Login}"/>
+                               x:Name="Login"/>
                 </StackLayout>
             </yummy:PancakeView>
 
@@ -42,7 +41,6 @@
                     <Entry Placeholder="Password" 
                                Margin="0, 59,0,0" 
                                x:Name="Password"
-                               Text="{Binding Password}"
                                IsPassword="True"/>
                 </StackLayout>
             </yummy:PancakeView>

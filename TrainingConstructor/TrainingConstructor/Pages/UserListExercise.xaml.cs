@@ -20,10 +20,10 @@ namespace TrainingConstructor.Pages
             InitializeComponent();
             ListDetails = new ObservableCollection<Card>
             {
-                new Card{ImgIcon = "plus.png", Name = "derr", ImgIcon1="user.png", Name1 = "dsdsds"},
-                new Card{ImgIcon ="plus.png",Name = "dadad", ImgIcon1 = "user.png", Name1="fdad"},
-                new Card{ImgIcon="plus.png", Name = "dsfdds", ImgIcon1 = "fzfdfd", Name1="ddaasd"},
-                new Card{ImgIcon="plus.png", Name = "dsfdds", ImgIcon1 = "fzfdfd", Name1="ddaasd"}
+                new Card{ImgIcon = "plus.png", Names = "derr", ImgIcon1="user.png", Name1 = "dsdsds"},
+                new Card{ImgIcon ="plus.png",Names = "dadad", ImgIcon1 = "user.png", Name1="fdad"},
+                new Card{ImgIcon="plus.png", Names= "dsfdds", ImgIcon1 = "fzfdfd", Name1="ddaasd"},
+                new Card{ImgIcon="plus.png", Names = "dsfdds", ImgIcon1 = "fzfdfd", Name1="ddaasd"}
             };
             BindingContext = this;
 
@@ -31,7 +31,7 @@ namespace TrainingConstructor.Pages
         }
         public class Card
         {
-            public string Name { get; set; }
+            public string Names { get; set; }
             public string ImgIcon { get; set; }
             public string ImgIcon1 { get; set; }
             public string  Name1 { get; set; }

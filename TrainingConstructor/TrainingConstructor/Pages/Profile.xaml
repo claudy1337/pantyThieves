@@ -5,6 +5,8 @@
              NavigationPage.HasNavigationBar="False"
              NavigationPage.HasBackButton="False"
              BackgroundColor="#F2F2F2"
+             
+            xmlns:local="clr-namespace:TrainingConstructor"
              Visual="Material"
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
     
@@ -43,7 +45,7 @@
                             <Entry
                                Placeholder="Name" 
                                Margin="0,25,0,0" 
-                               x:Name="Namee"
+                               x:Name="Name"
                                Text="{Binding Name}"/>
                         </StackLayout>
                     </yummy:PancakeView>
@@ -59,7 +61,7 @@
                                Placeholder="Login" 
                                Margin="0,25,0,0" 
                                x:Name="Login"
-                               Text="{Binding Login}"/>
+                                BindingContext="{Binding Login}"/>
                         </StackLayout>
                     </yummy:PancakeView>
 
