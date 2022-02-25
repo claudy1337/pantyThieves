@@ -88,7 +88,7 @@
                         <Button Text="Create Account"
                             x:Name="CreateProfile"
                             Margin="0,60,0,5"
-                                Clicked="CreateProfile_Clicked"/>
+                            Clicked="CreateProfile_Clicked"/>
                     </StackLayout>
 
                 </StackLayout>

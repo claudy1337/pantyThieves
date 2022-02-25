@@ -18,7 +18,7 @@
                        FontFamily="Montserrat-BlackItalic.ttf"/>
             </StackLayout>
 
-            <!--Panckace nuget packege cuttom entry login-->
+            <!--Panckace nuget package cuttom entry login-->
             <yummy:PancakeView Margin="0,90,0,0">
                 <yummy:PancakeView.Border>
                     <yummy:Border>
@@ -31,7 +31,7 @@
                 </StackLayout>
             </yummy:PancakeView>
 
-            <!--Panckace nuget packege cuttom entry password-->
+            <!--Panckace nuget package cuttom entry password-->
             <yummy:PancakeView>
                 <yummy:PancakeView.Border>
                     <yummy:Border>

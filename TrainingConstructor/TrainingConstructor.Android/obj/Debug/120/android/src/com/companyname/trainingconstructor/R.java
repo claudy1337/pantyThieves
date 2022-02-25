@@ -10006,14 +10006,18 @@ public final class R {
     public static final int plus=0x7f0700b8;
     public static final int pluse=0x7f0700b9;
     public static final int preference_list_divider_material=0x7f0700ba;
-    public static final int test_custom_background=0x7f0700bb;
-    public static final int tooltip_frame_dark=0x7f0700bc;
-    public static final int tooltip_frame_light=0x7f0700bd;
-    public static final int training=0x7f0700be;
-    public static final int user=0x7f0700bf;
-    public static final int userimage=0x7f0700c0;
-    public static final int walking=0x7f0700c1;
-    public static final int workout=0x7f0700c2;
+    public static final int shuting=0x7f0700bb;
+    public static final int snowboard=0x7f0700bc;
+    public static final int test_custom_background=0x7f0700bd;
+    public static final int tooltip_frame_dark=0x7f0700be;
+    public static final int tooltip_frame_light=0x7f0700bf;
+    public static final int training=0x7f0700c0;
+    public static final int trainings=0x7f0700c1;
+    public static final int user=0x7f0700c2;
+    public static final int userimage=0x7f0700c3;
+    public static final int walking=0x7f0700c4;
+    public static final int workout=0x7f0700c5;
+    public static final int zal=0x7f0700c6;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

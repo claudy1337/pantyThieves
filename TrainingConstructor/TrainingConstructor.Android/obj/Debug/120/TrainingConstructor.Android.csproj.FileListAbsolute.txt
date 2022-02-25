@@ -1516,3 +1516,7 @@ C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\pluse.png
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\androidx\jl\266d7129-5f5f-40bd-8fb6-eddd577d8949.jar
 C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\androidx\proguard\c27db673-4564-46dd-8bdc-85044f595efd.cfg
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\zal.png
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\shuting.png
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\snowboard.png
+C:\Users\claud\source\repos\pantyThieves\TrainingConstructor\TrainingConstructor.Android\obj\Debug\120\res\drawable\trainings.png

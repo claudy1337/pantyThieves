@@ -20,13 +20,10 @@ namespace TrainingConstructor.Pages
 
         private async void CreateProfile_Clicked(object sender, EventArgs e)
         {
-            User user = new User()
-            {
-                Login = Login.Text,
-             
-                Password = Password.Text,
-                Name = Name.Text
-            };
+            User user = new User();
+             user.Login = Login.Text;
+              user.Password = Password.Text;
+               user.Name = Name.Text;
             App.Db.AddUser(user);
 
             await Navigation.PushAsync(new Profile());

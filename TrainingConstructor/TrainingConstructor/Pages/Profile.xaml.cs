@@ -23,14 +23,8 @@ namespace TrainingConstructor.Pages
         public Profile()
         {
             InitializeComponent();
-            User user = new User();
+            Login.BindingContext = App.Db.GetItems();
 
-            Login.Text = user.Login;
-            user.Name = Name.Text;
-
-               
-            
-            
         }
 
 
@@ -57,9 +51,7 @@ namespace TrainingConstructor.Pages
 
             try
             {
-                // выбираем фото
                 var photo = await MediaPicker.PickPhotoAsync();
-                // загружаем в ImageView
                 AddUserImage.Source = ImageSource.FromFile(photo.FullPath);
             }
             catch (Exception ex)
@@ -68,5 +60,11 @@ namespace TrainingConstructor.Pages
             }
         }
 
+        private void SaveProfile_Clicked_1(object sender, EventArgs e)
+        {
+            var users = App.Db.GetUsers().Where(u => u.Login == Login.Text).ToList();
+            User user = new User();
+            user.Login = Login.Text;
+        }
     }
 }

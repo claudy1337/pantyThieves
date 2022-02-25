@@ -46,7 +46,8 @@
                                Placeholder="Name" 
                                Margin="0,25,0,0" 
                                x:Name="Name"
-                               Text="{Binding Name}"/>
+                               Text="{Binding Name}"
+                               MaxLength="11"/>
                         </StackLayout>
                     </yummy:PancakeView>
 
@@ -61,7 +62,8 @@
                                Placeholder="Login" 
                                Margin="0,25,0,0" 
                                x:Name="Login"
-                               BindingContext="{Binding Login}"/>
+                               BindingContext="{Binding Login}"
+                               MaxLength="15"/>
                         </StackLayout>
                     </yummy:PancakeView>
 
@@ -74,7 +76,8 @@
                             <Entry 
                                Placeholder="Number" 
                                Margin="0,25,0,0" 
-                               Text="{Binding Number}"/>
+                               Text="{Binding Number}"
+                               MaxLength="12"/>
                         </StackLayout>
                     </yummy:PancakeView>
                 </StackLayout>
@@ -110,7 +113,7 @@
                 <StackLayout VerticalOptions="EndAndExpand">
                     <Button Text="Update Profil"
                             x:Name="SaveProfile"
-                            Clicked="SaveProfile_Clicked"
+                            Clicked="SaveProfile_Clicked_1"
                             Margin="0,0,0,5"/>
                 </StackLayout>
                 

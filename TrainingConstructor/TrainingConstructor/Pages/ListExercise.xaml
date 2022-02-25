@@ -228,6 +228,220 @@
                 </Grid>
             </Frame>
 
+            <!--Shuting -->
+            <Frame Margin="35" Padding="-20" CornerRadius="60" BorderColor="Black">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image  Grid.Row="2" 
+                        Grid.Column="1" 
+                        Source="shuting.png"
+                        HeightRequest="40" WidthRequest="50"
+                        HorizontalOptions="Start"
+                        Margin="-30,0,0,0"
+                        x:Name="Image1"/>
+
+                    <combobox:SfComboBox HorizontalOptions="CenterAndExpand" 
+                                         Grid.ColumnSpan="3"  
+                                         WidthRequest="120" 
+                                         HeightRequest="40" 
+                                         Grid.Column="2"  
+                                         Grid.Row="1" 
+                                         Margin="0,0,0,0"  
+                                         IsEditableMode="false">
+
+                        <combobox:SfComboBox.ComboBoxSource>
+                            <ListCollection:List x:TypeArguments="x:String">
+                                <x:String>5min</x:String>
+                                <x:String>10min</x:String>
+                                <x:String>20min</x:String>
+                                <x:String>1h</x:String>
+                                <x:String>2h</x:String>
+
+                            </ListCollection:List>
+                        </combobox:SfComboBox.ComboBoxSource>
+                    </combobox:SfComboBox>
+
+                    <Button
+                        HeightRequest="30"
+                        WidthRequest="110"
+                        Grid.Row="3" 
+                        Grid.Column="2" 
+                        Grid.ColumnSpan="3"
+                        Margin="0,0,0,0"
+                        Text ="add"
+                        FontSize="17"
+                        HorizontalOptions="CenterAndExpand"
+                        x:Name="AddWalking1"/>
+
+                    <Label  Grid.Row="2" 
+                        Grid.Column="1" 
+                        Grid.ColumnSpan="2"
+                        Text ="Shuting"
+                        Margin="20,10,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        FontSize="20"
+                        x:Name="Names1"
+                        />
+                </Grid>
+            </Frame>
+
+
+            <!--trainings -->
+            <Frame Margin="35" Padding="-20" CornerRadius="60" BorderColor="Black">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image  Grid.Row="2" 
+                        Grid.Column="1" 
+                        Source="trainings.png"
+                        HeightRequest="40" WidthRequest="50"
+                        HorizontalOptions="Start"
+                        Margin="-30,0,0,0"
+                        x:Name="Image3"/>
+
+                    <combobox:SfComboBox HorizontalOptions="CenterAndExpand" 
+                                         Grid.ColumnSpan="3"  
+                                         WidthRequest="120" 
+                                         HeightRequest="40" 
+                                         Grid.Column="2"  
+                                         Grid.Row="1" 
+                                         Margin="0,0,0,0"  
+                                         IsEditableMode="false">
+
+                        <combobox:SfComboBox.ComboBoxSource>
+                            <ListCollection:List x:TypeArguments="x:String">
+                                <x:String>5min</x:String>
+                                <x:String>10min</x:String>
+                                <x:String>20min</x:String>
+                                <x:String>1h</x:String>
+                                <x:String>2h</x:String>
+
+                            </ListCollection:List>
+                        </combobox:SfComboBox.ComboBoxSource>
+                    </combobox:SfComboBox>
+
+                    <Button
+                        HeightRequest="30"
+                        WidthRequest="110"
+                        Grid.Row="3" 
+                        Grid.Column="2" 
+                        Grid.ColumnSpan="3"
+                        Margin="0,0,0,0"
+                        Text ="add"
+                        FontSize="17"
+                        HorizontalOptions="CenterAndExpand"
+                        x:Name="AddWalking3"/>
+
+                    <Label  Grid.Row="2" 
+                        Grid.Column="1" 
+                        Grid.ColumnSpan="2"
+                        Text ="Trainings"
+                        Margin="20,10,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        FontSize="20"
+                        x:Name="Names3"
+                        />
+                </Grid>
+            </Frame>
+
+
+            <!--zal -->
+            <Frame Margin="35" Padding="-20" CornerRadius="60" BorderColor="Black">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Image  Grid.Row="2" 
+                        Grid.Column="1" 
+                        Source="zal.png"
+                        HeightRequest="40" WidthRequest="50"
+                        HorizontalOptions="Start"
+                        Margin="-30,0,0,0"
+                        x:Name="Image4"/>
+
+                    <combobox:SfComboBox HorizontalOptions="CenterAndExpand" 
+                                         Grid.ColumnSpan="3"  
+                                         WidthRequest="120" 
+                                         HeightRequest="40" 
+                                         Grid.Column="2"  
+                                         Grid.Row="1" 
+                                         Margin="0,0,0,0"  
+                                         IsEditableMode="false">
+
+                        <combobox:SfComboBox.ComboBoxSource>
+                            <ListCollection:List x:TypeArguments="x:String">
+                                <x:String>5min</x:String>
+                                <x:String>10min</x:String>
+                                <x:String>20min</x:String>
+                                <x:String>1h</x:String>
+                                <x:String>2h</x:String>
+
+                            </ListCollection:List>
+                        </combobox:SfComboBox.ComboBoxSource>
+                    </combobox:SfComboBox>
+
+                    <Button
+                        HeightRequest="30"
+                        WidthRequest="110"
+                        Grid.Row="3" 
+                        Grid.Column="2" 
+                        Grid.ColumnSpan="3"
+                        Margin="0,0,0,0"
+                        Text ="add"
+                        FontSize="17"
+                        HorizontalOptions="CenterAndExpand"
+                        x:Name="AddWalking4"/>
+
+                    <Label  Grid.Row="2" 
+                        Grid.Column="1" 
+                        Grid.ColumnSpan="2"
+                        Text ="zal"
+                        Margin="20,10,0,0"
+                        HorizontalOptions="CenterAndExpand"
+                        FontSize="20"
+                        x:Name="Names4"
+                        />
+                </Grid>
+            </Frame>
 
         </StackLayout>
     </ScrollView>
