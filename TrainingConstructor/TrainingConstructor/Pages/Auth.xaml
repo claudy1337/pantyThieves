@@ -8,7 +8,7 @@
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
     <ContentPage.Content>
         <FlexLayout JustifyContent="Center" Direction="Column" VerticalOptions="Start" Margin="25,-22,25,0">
-            
+
             <StackLayout >
                 <Label Text="Authoriation"
                        TextColor="White"

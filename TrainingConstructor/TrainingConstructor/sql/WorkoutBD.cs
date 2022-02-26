@@ -14,22 +14,11 @@ namespace TrainingConstructor.sql
         {
             db = new SQLiteConnection(dbPath);
             db.CreateTable<Workout>();
-            db.CreateTable<User>();
         }
 
         public IEnumerable<Workout> GetItems()
         {
             return db.Table<Workout>().ToList();
-        }
-        public IEnumerable<User> GetUsers()
-        {
-            return db.Table<User>().ToList();
-        }
-
-
-        public User GetUser(int id)
-        {
-            return db.Get<User>(id);
         }
 
         public Workout GetItem(int id)
@@ -37,49 +26,17 @@ namespace TrainingConstructor.sql
             return db.Get<Workout>(id);
         }
 
-
-        public int DeleteUser(int id)
-        {
-            return db.Delete<User>(id);
-        }
         public int DeleteItem(int id)
         {
             return db.Delete<Workout>(id);
         }
 
-
-        public int AddUser(User item)
-        {
-            if (item.Id != 0)
-            {
-                db.Update(item);
-                return item.Id;
-            }
-            else
-            {
-                return db.Insert(item);
-            }
-        }
-
         public int SaveItem(Workout item)
         {
-            if (item.Id != 0)
+            if (item.IdUser != 0)
             {
                 db.Update(item);
-                return item.Id;
-            }
-            else
-            {
-                return db.Insert(item);
-            }
-        }
-
-        public int SaveItem(User item)
-        {
-            if (item.Id != 0)
-            {
-                db.Update(item);
-                return item.Id;
+                return item.IdUser;
             }
             else
             {

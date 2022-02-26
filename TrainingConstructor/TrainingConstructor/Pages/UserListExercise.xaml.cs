@@ -14,29 +14,24 @@ namespace TrainingConstructor.Pages
     {
      
 
-        public ObservableCollection<Card> ListDetails { get; set; }
+        
         public UserListExercise()
         {
             InitializeComponent();
-            ListDetails = new ObservableCollection<Card>
-            {
-                new Card{ImgIcon = "plus.png", Names = "derr", ImgIcon1="user.png", Name1 = "dsdsds"},
-                new Card{ImgIcon ="plus.png",Names = "dadad", ImgIcon1 = "user.png", Name1="fdad"},
-                new Card{ImgIcon="plus.png", Names= "dsfdds", ImgIcon1 = "fzfdfd", Name1="ddaasd"},
-                new Card{ImgIcon="plus.png", Names = "dsfdds", ImgIcon1 = "fzfdfd", Name1="ddaasd"}
-            };
-            BindingContext = this;
+            
 
             
         }
-        public class Card
+        
+        protected override void OnAppearing()
         {
-            public string Names { get; set; }
-            public string ImgIcon { get; set; }
-            public string ImgIcon1 { get; set; }
-            public string  Name1 { get; set; }
-            
+            LVProject.ItemsSource = App.Db.GetItems();
+            base.OnAppearing();
+        }
 
+        private void UpdateList()
+        {
+            LVProject.ItemsSource = App.Db.GetItems();
         }
 
     }

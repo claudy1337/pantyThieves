@@ -6,7 +6,7 @@
              NavigationPage.HasBackButton="False">
 
     <StackLayout>
-        <ListView Visual="Material" ItemsSource="{Binding ListDetails}" HasUnevenRows="True" BackgroundColor="White">
+        <ListView  x:Name="LVProject" Visual="Material" HasUnevenRows="True" BackgroundColor="White">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
@@ -25,9 +25,9 @@
                                 <Frame IsClippedToBounds="True" Margin="0,40,0,0" BorderColor="Black" Grid.Row="2" HeightRequest="350" WidthRequest="200" CornerRadius="30" Grid.Column="1" HasShadow="True" Padding="0" BackgroundColor="White">
                                 <StackLayout Orientation="Horizontal" VerticalOptions="Center">
                                     <BoxView VerticalOptions="Center" HeightRequest="90" WidthRequest="20"></BoxView>
-                                        <Image Margin="-10,0,0,0" Source="{Binding ImgIcon1}" HorizontalOptions="Center" VerticalOptions="Center"></Image>
-                                        <Label VerticalOptions="Center"  Text="{Binding Name}" Margin="15,0,0,0" FontSize="20" HorizontalOptions="Center" ></Label>
-                                        <Label VerticalOptions="Center" Text="{Binding Name1}" Margin="10,0,0,0" HorizontalOptions="End" FontFamily="Montserrat-Light.ttf" FontSize="20"></Label>
+                                        <Image Margin="-10,0,0,0" Source="{Binding Puth}" HorizontalOptions="Center" VerticalOptions="Center"></Image>
+                                        <Label VerticalOptions="Center"  Text="{Binding Title}" Margin="15,0,0,0" FontSize="20" HorizontalOptions="Center" ></Label>
+                                        <Label VerticalOptions="Center" Text="{Binding Time}" Margin="10,0,0,0" HorizontalOptions="End" FontFamily="Montserrat-Light.ttf" FontSize="20"></Label>
                                 </StackLayout>
                                 
                             </Frame>

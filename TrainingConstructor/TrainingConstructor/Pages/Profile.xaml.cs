@@ -23,23 +23,15 @@ namespace TrainingConstructor.Pages
         public Profile()
         {
             InitializeComponent();
-            Login.BindingContext = App.Db.GetItems();
+
+            var users = App.Db.GetItems().Where(u => u.LoginUser == Login.Text).ToList();
+            Login.Text = CurrentUser.Login;
+            Name.Text = CurrentUser.Name;
+           
 
         }
 
 
-
-        private async void SaveProfile_Clicked(object sender, EventArgs e)
-        {
-            var project = (User)BindingContext;
-
-                if (!String.IsNullOrEmpty(project.Login))
-                {
-                    App.Db.SaveItem(project);
-                }
-                
-
-        }
         protected override void OnAppearing()
         {
            // App.Db.GetItems();
@@ -62,9 +54,12 @@ namespace TrainingConstructor.Pages
 
         private void SaveProfile_Clicked_1(object sender, EventArgs e)
         {
-            var users = App.Db.GetUsers().Where(u => u.Login == Login.Text).ToList();
-            User user = new User();
-            user.Login = Login.Text;
+            
+            var project = (Workout)BindingContext;
+
+
+                App.Db.SaveItem(project);
+
         }
     }
 }

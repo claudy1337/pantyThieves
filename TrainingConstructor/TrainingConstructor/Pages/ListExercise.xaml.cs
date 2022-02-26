@@ -20,14 +20,17 @@ namespace TrainingConstructor.Pages
             InitializeComponent();
         }
 
-        async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
-        {
-            Workout wrk = new Workout();
-            wrk.Title = Names.Text;
-            
-            App.Db.SaveItem(wrk);
-        }
+       
 
-        
+        private void AddWalking_Clicked(object sender, EventArgs e)
+        {
+
+                Workout project = new Workout();
+                //project.Title = Names.Text;
+                project.Time = Times.ToString();
+                
+                App.Db.SaveItem(project);
+                Navigation.PopAsync();
+        }
     }
 }

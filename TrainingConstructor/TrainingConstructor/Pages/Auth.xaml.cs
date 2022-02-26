@@ -20,7 +20,7 @@ namespace TrainingConstructor.Pages
 
         private async void BRegistration_Clicked(object sender, EventArgs e)
         {
-            var users = App.Db.GetUsers().Where(u => u.Login == Login.Text && u.Password == Password.Text).ToList();
+            var users = App.Db.GetItems().Where(u => u.LoginUser == Login.Text && u.PasswordUser == Password.Text).ToList();
             if (users.Count != 0)
             {
                 await Navigation.PushAsync(new Page1());

@@ -11,12 +11,19 @@ namespace TrainingConstructor.sql
     {
         [PrimaryKey,AutoIncrement, Column("_id")]
         [Unique]
-        public int Id { get; set;}
-        public string NameW { get; set;}
-        public string Title { get; set;}
-       
-        public string Puth { get; set;}
+        public int IdWorkout { get; set;}
+        public string NameWorkout { get; set;}
+        public string PathWorkout { get; set;}
         public string Time { get; set;}
-        public int Count { get; set;}
+
+        [Unique]
+        public int IdUser { get; set; }
+        public string NameUser { get; set; }
+        public string PathUser { get; set; }
+        public string LoginUser { get; set; }
+        public string NumberUser { get; set; }
+        public string PasswordUser { get; set; }
+        public string BirthDay { get; set; }
+       
     }
 }
